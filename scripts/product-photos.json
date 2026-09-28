@@ -1,0 +1,1767 @@
+{
+  "source": "https://int.hartleywatches.com",
+  "note": "Hartley FRONT product photographs (transparent cut-outs) composed into the card contract; see scripts/fetch-product-photos.mjs",
+  "generatedAt": "2026-09-28T17:44:25.916Z",
+  "products": [
+    {
+      "slug": "heritage-black-with-black-leather",
+      "title": "Heritage Black with Black Leather",
+      "sourceFile": "HERITAGE_BLACK_BLACK-LEATHER_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_BLACK_BLACK-LEATHER_FRONT-WEB_1200x.png?v=1718603628",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_BLACK_BLACK-LEATHER_FRONT-WEB.png?v=1718603628",
+      "versionStamp": "1718603628",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HERITAGE BLACK WITH BLACK LEATHER FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:43:01.284Z",
+      "bytes": 531795,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          320,
+          84,
+          585,
+          1009
+        ],
+        "placed": [
+          180,
+          54,
+          720,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "heritage-black-with-black-leather.webp",
+        "heritage-black-with-black-leather@480.webp"
+      ]
+    },
+    {
+      "slug": "heritage-black-with-black-mesh",
+      "title": "Heritage Black with Black Mesh",
+      "sourceFile": "HERITAGE_BLACK_BLACK-MESH_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_BLACK_BLACK-MESH_FRONT-WEB_1200x.png?v=1718603379",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_BLACK_BLACK-MESH_FRONT-WEB.png?v=1718603379",
+      "versionStamp": "1718603379",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HERITAGE BLACK WITH BLACK MESH FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:42:49.610Z",
+      "bytes": 549552,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          320,
+          97,
+          585,
+          980
+        ],
+        "placed": [
+          169,
+          54,
+          741,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "heritage-black-with-black-mesh.webp",
+        "heritage-black-with-black-mesh@480.webp"
+      ]
+    },
+    {
+      "slug": "heritage-black-with-dark-brown-leather",
+      "title": "Heritage Black with Dark Brown Leather",
+      "sourceFile": "HERITAGE_BLACK_DARK-BROWN-LEATHER_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_BLACK_DARK-BROWN-LEATHER_FRONT-WEB_1200x.png?v=1718603904",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_BLACK_DARK-BROWN-LEATHER_FRONT-WEB.png?v=1718603904",
+      "versionStamp": "1718603904",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HERITAGE BLACK WITH DARK BROWN LEATHER FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:43:11.177Z",
+      "bytes": 547225,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          320,
+          84,
+          585,
+          1009
+        ],
+        "placed": [
+          180,
+          54,
+          720,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "heritage-black-with-dark-brown-leather.webp",
+        "heritage-black-with-dark-brown-leather@480.webp"
+      ]
+    },
+    {
+      "slug": "heritage-black-with-white-leather",
+      "title": "Heritage Black with White Leather",
+      "sourceFile": "HERITAGE_BLACK_WHITE-LEATHER_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_BLACK_WHITE-LEATHER_FRONT-WEB_1200x.png?v=1718603973",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_BLACK_WHITE-LEATHER_FRONT-WEB.png?v=1718603973",
+      "versionStamp": "1718603973",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HERITAGE BLACK WITH WHITE LEATHER FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:43:22.121Z",
+      "bytes": 476145,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          320,
+          84,
+          585,
+          1009
+        ],
+        "placed": [
+          180,
+          54,
+          720,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "heritage-black-with-white-leather.webp",
+        "heritage-black-with-white-leather@480.webp"
+      ]
+    },
+    {
+      "slug": "heritage-gold-with-black-leather",
+      "title": "Heritage Gold with Black Leather",
+      "sourceFile": "HERITAGE_GOLD_BLACK-LEATHER_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_GOLD_BLACK-LEATHER_FRONT-WEB_1200x.png?v=1718608839",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_GOLD_BLACK-LEATHER_FRONT-WEB.png?v=1718608839",
+      "versionStamp": "1718608839",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HERITAGE GOLD WITH BLACK LEATHER FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:43:05.335Z",
+      "bytes": 558259,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          320,
+          84,
+          585,
+          1009
+        ],
+        "placed": [
+          180,
+          54,
+          720,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "heritage-gold-with-black-leather.webp",
+        "heritage-gold-with-black-leather@480.webp"
+      ]
+    },
+    {
+      "slug": "heritage-gold-with-black-mesh",
+      "title": "Heritage Gold with Black Mesh",
+      "sourceFile": "HERITAGE_GOLD_BLACK-MESH_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_GOLD_BLACK-MESH_FRONT-WEB_1200x.png?v=1718605508",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_GOLD_BLACK-MESH_FRONT-WEB.png?v=1718605508",
+      "versionStamp": "1718605508",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HERITAGE GOLD WITH BLACK MESH FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:43:26.676Z",
+      "bytes": 592430,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          320,
+          97,
+          585,
+          980
+        ],
+        "placed": [
+          169,
+          54,
+          741,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "heritage-gold-with-black-mesh.webp",
+        "heritage-gold-with-black-mesh@480.webp"
+      ]
+    },
+    {
+      "slug": "heritage-gold-with-brown-leather",
+      "title": "Heritage Gold with Brown Leather",
+      "sourceFile": "HERITAGE_GOLD_BROWN-LEATHER_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_GOLD_BROWN-LEATHER_FRONT-WEB_1200x.png?v=1718605328",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_GOLD_BROWN-LEATHER_FRONT-WEB.png?v=1718605328",
+      "versionStamp": "1718605328",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HERITAGE GOLD WITH BROWN LEATHER FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:43:15.690Z",
+      "bytes": 588021,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          320,
+          84,
+          585,
+          1009
+        ],
+        "placed": [
+          180,
+          54,
+          720,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "heritage-gold-with-brown-leather.webp",
+        "heritage-gold-with-brown-leather@480.webp"
+      ]
+    },
+    {
+      "slug": "heritage-gold-with-gold-mesh",
+      "title": "Heritage Gold with Gold Mesh",
+      "sourceFile": "HERITAGE_GOLD_GOLD-MESH_FRONT_-_WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_GOLD_GOLD-MESH_FRONT_-_WEB_1200x.png?v=1718605022",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_GOLD_GOLD-MESH_FRONT_-_WEB.png?v=1718605022",
+      "versionStamp": "1718605022",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HERITAGE GOLD WITH GOLD MESH FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:42:55.180Z",
+      "bytes": 655865,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          320,
+          95,
+          585,
+          981
+        ],
+        "placed": [
+          170,
+          54,
+          741,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "heritage-gold-with-gold-mesh.webp",
+        "heritage-gold-with-gold-mesh@480.webp"
+      ]
+    },
+    {
+      "slug": "heritage-rose-gold-black-dial-with-beige-leather",
+      "title": "Heritage Rose Gold Black Dial with Beige Leather",
+      "sourceFile": "HERITAGE_ROSE-GOLD-BLACK_BEIGE-LEATHER_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_ROSE-GOLD-BLACK_BEIGE-LEATHER_FRONT-WEB_1200x.png?v=1718607510",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_ROSE-GOLD-BLACK_BEIGE-LEATHER_FRONT-WEB.png?v=1718607510",
+      "versionStamp": "1718607510",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HERITAGE ROSE GOLD BLACK WITH BEIGE LEATHER FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:43:20.249Z",
+      "bytes": 549528,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          320,
+          84,
+          585,
+          1009
+        ],
+        "placed": [
+          180,
+          54,
+          720,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "heritage-rose-gold-black-dial-with-beige-leather.webp",
+        "heritage-rose-gold-black-dial-with-beige-leather@480.webp"
+      ]
+    },
+    {
+      "slug": "heritage-rose-gold-black-dial-with-black-leather",
+      "title": "Heritage Rose Gold Black Dial with Black Leather",
+      "sourceFile": "HERITAGE_ROSE-GOLD-BLACK_BLACK-LEATHER_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_ROSE-GOLD-BLACK_BLACK-LEATHER_FRONT-WEB_1200x.png?v=1718607282",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_ROSE-GOLD-BLACK_BLACK-LEATHER_FRONT-WEB.png?v=1718607282",
+      "versionStamp": "1718607282",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HERITAGE ROSE GOLD BLACK WITH BLACK LEATHER FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:43:09.126Z",
+      "bytes": 554987,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          320,
+          84,
+          585,
+          1009
+        ],
+        "placed": [
+          180,
+          54,
+          720,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "heritage-rose-gold-black-dial-with-black-leather.webp",
+        "heritage-rose-gold-black-dial-with-black-leather@480.webp"
+      ]
+    },
+    {
+      "slug": "heritage-rose-gold-black-dial-with-black-mesh",
+      "title": "Heritage Rose Gold Black Dial with Black Mesh",
+      "sourceFile": "HERITAGE_ROSE-GOLD-BLACK_BLACK-MESH_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_ROSE-GOLD-BLACK_BLACK-MESH_FRONT-WEB_1200x.png?v=1718607560",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_ROSE-GOLD-BLACK_BLACK-MESH_FRONT-WEB.png?v=1718607560",
+      "versionStamp": "1718607560",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HERITAGE ROSE GOLD BLACK WITH BLACK MESH FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:43:30.865Z",
+      "bytes": 596192,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          320,
+          97,
+          585,
+          980
+        ],
+        "placed": [
+          169,
+          54,
+          741,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "heritage-rose-gold-black-dial-with-black-mesh.webp",
+        "heritage-rose-gold-black-dial-with-black-mesh@480.webp"
+      ]
+    },
+    {
+      "slug": "heritage-rose-gold-black-dial-with-rose-gold-mesh",
+      "title": "Heritage Rose Gold Black Dial with Rose Gold Mesh",
+      "sourceFile": "HERITAGE_ROSE-GOLD-BLACK_ROSE-GOLD-MESH_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_ROSE-GOLD-BLACK_ROSE-GOLD-MESH_FRONT-WEB_1200x.png?v=1718771371",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_ROSE-GOLD-BLACK_ROSE-GOLD-MESH_FRONT-WEB.png?v=1718771371",
+      "versionStamp": "1718771371",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HERITAGE ROSE GOLD BLACK WITH ROSE GOLD MESH FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:42:59.201Z",
+      "bytes": 654845,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          320,
+          95,
+          585,
+          984
+        ],
+        "placed": [
+          171,
+          54,
+          738,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "heritage-rose-gold-black-dial-with-rose-gold-mesh.webp",
+        "heritage-rose-gold-black-dial-with-rose-gold-mesh@480.webp"
+      ]
+    },
+    {
+      "slug": "heritage-rose-gold-white-dial-with-beige-leather",
+      "title": "Heritage Rose Gold White Dial with Beige Leather",
+      "sourceFile": "HERITAGE_ROSE-GOLD_BEIGE-LEATHER_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_ROSE-GOLD_BEIGE-LEATHER_FRONT-WEB_1200x.png?v=1718606678",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_ROSE-GOLD_BEIGE-LEATHER_FRONT-WEB.png?v=1718606678",
+      "versionStamp": "1718606678",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HERITAGE ROSE GOLD WHITE WITH BEIGE LEATHER FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:43:28.749Z",
+      "bytes": 597920,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          320,
+          84,
+          585,
+          1009
+        ],
+        "placed": [
+          180,
+          54,
+          720,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "heritage-rose-gold-white-dial-with-beige-leather.webp",
+        "heritage-rose-gold-white-dial-with-beige-leather@480.webp"
+      ]
+    },
+    {
+      "slug": "heritage-rose-gold-white-dial-with-black-leather",
+      "title": "Heritage Rose Gold White Dial with Black Leather",
+      "sourceFile": "HERITAGE_ROSE-GOLD_BLACK-LEATHER_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_ROSE-GOLD_BLACK-LEATHER_FRONT-WEB_1200x.png?v=1718605981",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_ROSE-GOLD_BLACK-LEATHER_FRONT-WEB.png?v=1718605981",
+      "versionStamp": "1718605981",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HERITAGE ROSE GOLD WHITE WITH BLACK LEATHER FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:43:07.302Z",
+      "bytes": 593240,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          320,
+          84,
+          585,
+          1009
+        ],
+        "placed": [
+          180,
+          54,
+          720,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "heritage-rose-gold-white-dial-with-black-leather.webp",
+        "heritage-rose-gold-white-dial-with-black-leather@480.webp"
+      ]
+    },
+    {
+      "slug": "heritage-rose-gold-white-dial-with-pink-leather",
+      "title": "Heritage Rose Gold White Dial with Pink Leather",
+      "sourceFile": "HERITAGE_ROSE-GOLD_PINK-LEATHER_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_ROSE-GOLD_PINK-LEATHER_FRONT-WEB_1200x.png?v=1718606602",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_ROSE-GOLD_PINK-LEATHER_FRONT-WEB.png?v=1718606602",
+      "versionStamp": "1718606602",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HERITAGE ROSE GOLD WHITE WITH PINK LEATHER FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:43:18.080Z",
+      "bytes": 594849,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          320,
+          84,
+          585,
+          1009
+        ],
+        "placed": [
+          180,
+          54,
+          720,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "heritage-rose-gold-white-dial-with-pink-leather.webp",
+        "heritage-rose-gold-white-dial-with-pink-leather@480.webp"
+      ]
+    },
+    {
+      "slug": "heritage-rose-gold-white-dial-with-rose-gold-mesh",
+      "title": "Heritage Rose Gold White Dial with Rose Gold Mesh",
+      "sourceFile": "HERITAGE_ROSE-GOLD_ROSE-GOLD-MESH_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_ROSE-GOLD_ROSE-GOLD-MESH_FRONT-WEB_1200x.png?v=1718605816",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_ROSE-GOLD_ROSE-GOLD-MESH_FRONT-WEB.png?v=1718605816",
+      "versionStamp": "1718605816",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HERITAGE ROSE GOLD WHITE WITH ROSE GOLD MESH FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:42:57.206Z",
+      "bytes": 698829,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          320,
+          95,
+          585,
+          984
+        ],
+        "placed": [
+          171,
+          54,
+          738,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "heritage-rose-gold-white-dial-with-rose-gold-mesh.webp",
+        "heritage-rose-gold-white-dial-with-rose-gold-mesh@480.webp"
+      ]
+    },
+    {
+      "slug": "heritage-silver-with-black-leather",
+      "title": "Heritage Silver with Black Leather",
+      "sourceFile": "HERITAGE_SILVER_BLACK-LEATHER_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_SILVER_BLACK-LEATHER_FRONT-WEB_1200x.png?v=1718604346",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_SILVER_BLACK-LEATHER_FRONT-WEB.png?v=1718604346",
+      "versionStamp": "1718604346",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HERITAGE SILVER WITH BLACK LEATHER FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:43:03.100Z",
+      "bytes": 582883,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          320,
+          84,
+          585,
+          1009
+        ],
+        "placed": [
+          180,
+          54,
+          720,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "heritage-silver-with-black-leather.webp",
+        "heritage-silver-with-black-leather@480.webp"
+      ]
+    },
+    {
+      "slug": "heritage-silver-with-grey-leather",
+      "title": "Heritage Silver with Grey Leather",
+      "sourceFile": "HERITAGE_SILVER_GREY-LEATHER_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_SILVER_GREY-LEATHER_FRONT-WEB_1200x.png?v=1718604713",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_SILVER_GREY-LEATHER_FRONT-WEB.png?v=1718604713",
+      "versionStamp": "1718604713",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HERITAGE SILVER WITH GREY LEATHER FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:43:24.251Z",
+      "bytes": 593322,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          320,
+          84,
+          585,
+          1009
+        ],
+        "placed": [
+          180,
+          54,
+          720,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "heritage-silver-with-grey-leather.webp",
+        "heritage-silver-with-grey-leather@480.webp"
+      ]
+    },
+    {
+      "slug": "heritage-silver-with-silver-mesh",
+      "title": "Heritage Silver with Silver Mesh",
+      "sourceFile": "HERITAGE_SILVER_SILVER-MESH_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_SILVER_SILVER-MESH_FRONT-WEB_1200x.png?v=1718604202",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_SILVER_SILVER-MESH_FRONT-WEB.png?v=1718604202",
+      "versionStamp": "1718604202",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HERITAGE SILVER WITH SILVER MESH FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:42:52.620Z",
+      "bytes": 653767,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          320,
+          96,
+          585,
+          981
+        ],
+        "placed": [
+          170,
+          54,
+          741,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "heritage-silver-with-silver-mesh.webp",
+        "heritage-silver-with-silver-mesh@480.webp"
+      ]
+    },
+    {
+      "slug": "heritage-silver-with-white-leather",
+      "title": "Heritage Silver with White Leather",
+      "sourceFile": "HERITAGE_SILVER_WHITE-LEATHER_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_SILVER_WHITE-LEATHER_FRONT-WEB_1200x.png?v=1718604529",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/HERITAGE_SILVER_WHITE-LEATHER_FRONT-WEB.png?v=1718604529",
+      "versionStamp": "1718604529",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HERITAGE SILVER WITH WHITE LEATHER FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:43:13.213Z",
+      "bytes": 542365,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          320,
+          84,
+          585,
+          1009
+        ],
+        "placed": [
+          180,
+          54,
+          720,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "heritage-silver-with-white-leather.webp",
+        "heritage-silver-with-white-leather@480.webp"
+      ]
+    },
+    {
+      "slug": "legacy-black-with-black-croc",
+      "title": "Legacy Black with Black Croc",
+      "sourceFile": "LEGACY_BLACK_BLACK-CROC_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_BLACK_BLACK-CROC_FRONT-WEB_1200x.png?v=1718601807",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_BLACK_BLACK-CROC_FRONT-WEB.png?v=1718601807",
+      "versionStamp": "1718601807",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HARTLEY LEGACY BLACK BLACK CROC FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:44:19.341Z",
+      "bytes": 621220,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          300,
+          133,
+          628,
+          966
+        ],
+        "placed": [
+          136,
+          54,
+          807,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "legacy-black-with-black-croc.webp",
+        "legacy-black-with-black-croc@480.webp"
+      ]
+    },
+    {
+      "slug": "legacy-black-with-black-rubber",
+      "title": "Legacy Black with Black Silicone",
+      "sourceFile": "LEGACY_BLACK_BLACK-SILICONE_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_BLACK_BLACK-SILICONE_FRONT-WEB_1200x.png?v=1718602277",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_BLACK_BLACK-SILICONE_FRONT-WEB.png?v=1718602277",
+      "versionStamp": "1718602277",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HARTLEY LEGACY BLACK BLACK SILICONE FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:44:23.297Z",
+      "bytes": 611783,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          300,
+          131,
+          628,
+          938
+        ],
+        "placed": [
+          124,
+          54,
+          832,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "legacy-black-with-black-rubber.webp",
+        "legacy-black-with-black-rubber@480.webp"
+      ]
+    },
+    {
+      "slug": "legacy-black-with-mesh-strap",
+      "title": "Legacy Black with Mesh Strap",
+      "sourceFile": "LEGACY_BLACK_MESH_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_BLACK_MESH_FRONT-WEB_1200x.png?v=1718602038",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_BLACK_MESH_FRONT-WEB.png?v=1718602038",
+      "versionStamp": "1718602038",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HARTLEY LEGACY BLACK MESH FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:44:21.190Z",
+      "bytes": 662146,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          300,
+          97,
+          628,
+          980
+        ],
+        "placed": [
+          142,
+          54,
+          796,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "legacy-black-with-mesh-strap.webp",
+        "legacy-black-with-mesh-strap@480.webp"
+      ]
+    },
+    {
+      "slug": "legacy-black-with-steel-bracelet",
+      "title": "Legacy Black with Steel Bracelet",
+      "sourceFile": "LEGACY_BLACK_STEEL_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_BLACK_STEEL_FRONT-WEB_1200x.png?v=1718601596",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_BLACK_STEEL_FRONT-WEB.png?v=1718601596",
+      "versionStamp": "1718601596",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HARTLEY LEGACY BLACK STEEL BRACELET FRONTAL VIEW",
+      "fetchedAt": "2026-09-28T17:44:17.446Z",
+      "bytes": 597565,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          300,
+          44,
+          628,
+          1044
+        ],
+        "placed": [
+          166,
+          54,
+          747,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "legacy-black-with-steel-bracelet.webp",
+        "legacy-black-with-steel-bracelet@480.webp"
+      ]
+    },
+    {
+      "slug": "legacy-black-with-white-rubber",
+      "title": "Legacy Black with White Silicone",
+      "sourceFile": "LEGACY_BLACK_WHITE-SILICONE_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_BLACK_WHITE-SILICONE_FRONT-WEB_1200x.png?v=1718602433",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_BLACK_WHITE-SILICONE_FRONT-WEB.png?v=1718602433",
+      "versionStamp": "1718602433",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HARTLEY LEGACY BLACK WHITE SILICONE FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:44:25.159Z",
+      "bytes": 582470,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          300,
+          131,
+          628,
+          938
+        ],
+        "placed": [
+          124,
+          54,
+          832,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "legacy-black-with-white-rubber.webp",
+        "legacy-black-with-white-rubber@480.webp"
+      ]
+    },
+    {
+      "slug": "legacy-gold-with-black-croc",
+      "title": "Legacy Gold with Black Croc",
+      "sourceFile": "LEGACY_GOLD_CROC_FRONTWEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_GOLD_CROC_FRONTWEB_1200x.png?v=1718596830",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_GOLD_CROC_FRONTWEB.png?v=1718596830",
+      "versionStamp": "1718596830",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HARTLEY LEGACY GOLD BLACK CROC FRONTAL VIEW",
+      "fetchedAt": "2026-09-28T17:43:47.973Z",
+      "bytes": 702908,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          300,
+          133,
+          628,
+          966
+        ],
+        "placed": [
+          136,
+          54,
+          807,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "legacy-gold-with-black-croc.webp",
+        "legacy-gold-with-black-croc@480.webp"
+      ]
+    },
+    {
+      "slug": "legacy-gold-with-black-rubber",
+      "title": "Legacy Gold with Black Silicone",
+      "sourceFile": "LEGACY_GOLD_BLACK_SILICONE_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_GOLD_BLACK_SILICONE_FRONT-WEB_1200x.png?v=1718597514",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_GOLD_BLACK_SILICONE_FRONT-WEB.png?v=1718597514",
+      "versionStamp": "1718597514",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HARTLEY LEGACY GOLD BLACK SILICONE FRONTAL VIEW",
+      "fetchedAt": "2026-09-28T17:43:52.508Z",
+      "bytes": 699561,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          300,
+          131,
+          628,
+          938
+        ],
+        "placed": [
+          124,
+          54,
+          832,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "legacy-gold-with-black-rubber.webp",
+        "legacy-gold-with-black-rubber@480.webp"
+      ]
+    },
+    {
+      "slug": "legacy-gold-with-mesh-strap",
+      "title": "Legacy Gold with Mesh Strap",
+      "sourceFile": "LEGACY_GOLD_MESH_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_GOLD_MESH_FRONT-WEB_1200x.png?v=1718597272",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_GOLD_MESH_FRONT-WEB.png?v=1718597272",
+      "versionStamp": "1718597272",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HARTLEY LEGACY GOLD MESH FRONTAL VIEW",
+      "fetchedAt": "2026-09-28T17:43:50.404Z",
+      "bytes": 825060,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          300,
+          97,
+          628,
+          980
+        ],
+        "placed": [
+          142,
+          54,
+          796,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "legacy-gold-with-mesh-strap.webp",
+        "legacy-gold-with-mesh-strap@480.webp"
+      ]
+    },
+    {
+      "slug": "legacy-gold-with-steel-bracelet",
+      "title": "Legacy Gold with Steel Bracelet",
+      "sourceFile": "LEGACY_GOLD_STEEL_FRONT_WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_GOLD_STEEL_FRONT_WEB_1200x.png?v=1718596155",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_GOLD_STEEL_FRONT_WEB.png?v=1718596155",
+      "versionStamp": "1718596155",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HARTLEY LEGACY GOLD STEEL BRACELET FRONTAL VIEW",
+      "fetchedAt": "2026-09-28T17:43:45.515Z",
+      "bytes": 748351,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          300,
+          44,
+          628,
+          1044
+        ],
+        "placed": [
+          166,
+          54,
+          747,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "legacy-gold-with-steel-bracelet.webp",
+        "legacy-gold-with-steel-bracelet@480.webp"
+      ]
+    },
+    {
+      "slug": "legacy-gold-with-white-rubber",
+      "title": "Legacy Gold with White Silicone",
+      "sourceFile": "LEGACY_GOLD_WHITE-SILICONE_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_GOLD_WHITE-SILICONE_FRONT-WEB_1200x.png?v=1718597761",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_GOLD_WHITE-SILICONE_FRONT-WEB.png?v=1718597761",
+      "versionStamp": "1718597761",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HARTLEY LEGACY GOLD WHITE SILICONE FRONTAL VIEW",
+      "fetchedAt": "2026-09-28T17:43:54.306Z",
+      "bytes": 655512,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          300,
+          131,
+          628,
+          938
+        ],
+        "placed": [
+          124,
+          54,
+          832,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "legacy-gold-with-white-rubber.webp",
+        "legacy-gold-with-white-rubber@480.webp"
+      ]
+    },
+    {
+      "slug": "legacy-rose-gold-with-black-croc",
+      "title": "Legacy Rose Gold with Black Croc",
+      "sourceFile": "LEGACY_ROSE-GOLD_BLACK-CROC_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_ROSE-GOLD_BLACK-CROC_FRONT-WEB_1200x.png?v=1718600328",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_ROSE-GOLD_BLACK-CROC_FRONT-WEB.png?v=1718600328",
+      "versionStamp": "1718600328",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HARTLEY LEGACY ROSE GOLD BLACK CROC FRONTAL VIEW",
+      "fetchedAt": "2026-09-28T17:44:01.382Z",
+      "bytes": 694039,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          300,
+          133,
+          628,
+          966
+        ],
+        "placed": [
+          136,
+          54,
+          807,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "legacy-rose-gold-with-black-croc.webp",
+        "legacy-rose-gold-with-black-croc@480.webp"
+      ]
+    },
+    {
+      "slug": "legacy-rose-gold-with-black-rubber",
+      "title": "Legacy Rose Gold with Black Silicone",
+      "sourceFile": "LEGACY_ROSE-GOLD_BLACK-SILICONE_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_ROSE-GOLD_BLACK-SILICONE_FRONT-WEB_1200x.png?v=1718600791",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_ROSE-GOLD_BLACK-SILICONE_FRONT-WEB.png?v=1718600791",
+      "versionStamp": "1718600791",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HARTLEY LEGACY ROSE GOLD BLACK SILICONE FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:44:06.094Z",
+      "bytes": 693476,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          300,
+          131,
+          628,
+          938
+        ],
+        "placed": [
+          124,
+          54,
+          832,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "legacy-rose-gold-with-black-rubber.webp",
+        "legacy-rose-gold-with-black-rubber@480.webp"
+      ]
+    },
+    {
+      "slug": "legacy-rose-gold-with-mesh-strap",
+      "title": "Legacy Rose Gold with Mesh Strap",
+      "sourceFile": "LEGACY_ROSE-GOLD_MESH_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_ROSE-GOLD_MESH_FRONT-WEB_1200x.png?v=1718600547",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_ROSE-GOLD_MESH_FRONT-WEB.png?v=1718600547",
+      "versionStamp": "1718600547",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HARTLEY LEGACY ROSE GOLD MESH FRONTAL VIEW",
+      "fetchedAt": "2026-09-28T17:44:04.110Z",
+      "bytes": 815540,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          300,
+          97,
+          628,
+          980
+        ],
+        "placed": [
+          142,
+          54,
+          796,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "legacy-rose-gold-with-mesh-strap.webp",
+        "legacy-rose-gold-with-mesh-strap@480.webp"
+      ]
+    },
+    {
+      "slug": "legacy-rose-gold-with-steel-bracelet",
+      "title": "Legacy Rose Gold with Steel Bracelet",
+      "sourceFile": "LEGACY_ROSE-GOLD_STEEL_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_ROSE-GOLD_STEEL_FRONT-WEB_1200x.png?v=1718600072",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_ROSE-GOLD_STEEL_FRONT-WEB.png?v=1718600072",
+      "versionStamp": "1718600072",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HARTLEY LEGACY ROSE GOLD STEEL BRACELET FRONTAL VIEW",
+      "fetchedAt": "2026-09-28T17:43:56.167Z",
+      "bytes": 737876,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          300,
+          44,
+          628,
+          1044
+        ],
+        "placed": [
+          166,
+          54,
+          747,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "legacy-rose-gold-with-steel-bracelet.webp",
+        "legacy-rose-gold-with-steel-bracelet@480.webp"
+      ]
+    },
+    {
+      "slug": "legacy-rose-gold-with-white-rubber",
+      "title": "Legacy Rose Gold with White Silicone",
+      "sourceFile": "LEGACY_ROSE-GOLD_WHITE-SILICONE_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_ROSE-GOLD_WHITE-SILICONE_FRONT-WEB_1200x.png?v=1718601266",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_ROSE-GOLD_WHITE-SILICONE_FRONT-WEB.png?v=1718601266",
+      "versionStamp": "1718601266",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HARTLEY LEGACY ROSE GOLD WHITE SILICONE FRONT VIEW",
+      "fetchedAt": "2026-09-28T17:44:15.622Z",
+      "bytes": 646021,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          300,
+          131,
+          628,
+          938
+        ],
+        "placed": [
+          124,
+          54,
+          832,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "legacy-rose-gold-with-white-rubber.webp",
+        "legacy-rose-gold-with-white-rubber@480.webp"
+      ]
+    },
+    {
+      "slug": "legacy-silver-with-black-croc",
+      "title": "Legacy Silver with Black Croc",
+      "sourceFile": "LEGACY_SILVER_CROC_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_SILVER_CROC_FRONT-WEB_1200x.png?v=1718598813",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_SILVER_CROC_FRONT-WEB.png?v=1718598813",
+      "versionStamp": "1718598813",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HARTLEY LEGACY SILVER BLACK CROC FRONTAL VIEW",
+      "fetchedAt": "2026-09-28T17:43:36.105Z",
+      "bytes": 632724,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          300,
+          133,
+          628,
+          966
+        ],
+        "placed": [
+          136,
+          54,
+          807,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "legacy-silver-with-black-croc.webp",
+        "legacy-silver-with-black-croc@480.webp"
+      ]
+    },
+    {
+      "slug": "legacy-silver-with-black-rubber",
+      "title": "Legacy Silver with Black Silicone",
+      "sourceFile": "LEGACY_SILVER_BLACK-SILICONE_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_SILVER_BLACK-SILICONE_FRONT-WEB_1200x.png?v=1718599147",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_SILVER_BLACK-SILICONE_FRONT-WEB.png?v=1718599147",
+      "versionStamp": "1718599147",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HARTLEY LEGACY SILVER BLACK SILICONE FRONTAL VIEW",
+      "fetchedAt": "2026-09-28T17:43:40.495Z",
+      "bytes": 621385,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          300,
+          131,
+          628,
+          938
+        ],
+        "placed": [
+          124,
+          54,
+          832,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "legacy-silver-with-black-rubber.webp",
+        "legacy-silver-with-black-rubber@480.webp"
+      ]
+    },
+    {
+      "slug": "legacy-silver-with-mesh-strap",
+      "title": "Legacy Silver with Mesh Strap",
+      "sourceFile": "LEGACY_SILVER_MESH_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_SILVER_MESH_FRONT-WEB_1200x.png?v=1718598948",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_SILVER_MESH_FRONT-WEB.png?v=1718598948",
+      "versionStamp": "1718598948",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HARTLEY LEGACY SILVER MESH FRONTAL VIEW",
+      "fetchedAt": "2026-09-28T17:43:37.939Z",
+      "bytes": 708458,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          300,
+          97,
+          628,
+          980
+        ],
+        "placed": [
+          142,
+          54,
+          796,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "legacy-silver-with-mesh-strap.webp",
+        "legacy-silver-with-mesh-strap@480.webp"
+      ]
+    },
+    {
+      "slug": "legacy-silver-with-steel-bracelet",
+      "title": "Legacy Silver with Steel Bracelet",
+      "sourceFile": "LEGACY_SILVER_STEEL_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_SILVER_STEEL_FRONT-WEB_1200x.png?v=1718598333",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_SILVER_STEEL_FRONT-WEB.png?v=1718598333",
+      "versionStamp": "1718598333",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HARTLEY LEGACY SILVER STEEL BRACELET FRONTAL VIEW",
+      "fetchedAt": "2026-09-28T17:43:33.752Z",
+      "bytes": 617919,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          300,
+          44,
+          628,
+          1044
+        ],
+        "placed": [
+          166,
+          54,
+          747,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "legacy-silver-with-steel-bracelet.webp",
+        "legacy-silver-with-steel-bracelet@480.webp"
+      ]
+    },
+    {
+      "slug": "legacy-silver-with-white-rubber",
+      "title": "Legacy Silver with White Silicone",
+      "sourceFile": "LEGACY_SILVER_WHITE-SILICONE_FRONT-WEB.png",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_SILVER_WHITE-SILICONE_FRONT-WEB_1200x.png?v=1718599535",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0888/9650/files/LEGACY_SILVER_WHITE-SILICONE_FRONT-WEB.png?v=1718599535",
+      "versionStamp": "1718599535",
+      "originalSize": [
+        2400,
+        2400
+      ],
+      "position": 1,
+      "alt": "HARTLEY LEGACY SILVER WHITE SILICONE FRONTAL VIEW",
+      "fetchedAt": "2026-09-28T17:43:42.556Z",
+      "bytes": 558633,
+      "composition": {
+        "canvas": [
+          1080,
+          1350
+        ],
+        "fit": {
+          "width": 0.88,
+          "height": 0.92
+        },
+        "sourceBBox": [
+          300,
+          131,
+          628,
+          938
+        ],
+        "placed": [
+          124,
+          54,
+          832,
+          1242
+        ],
+        "format": "webp+alpha",
+        "quality": 0.85
+      },
+      "assets": [
+        "legacy-silver-with-white-rubber.webp",
+        "legacy-silver-with-white-rubber@480.webp"
+      ]
+    }
+  ]
+}

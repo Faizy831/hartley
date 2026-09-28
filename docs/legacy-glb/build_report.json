@@ -1,0 +1,1090 @@
+{
+ "needsClientConfirmation": [
+  "Hand_Minute / Hand_Hour: assigned by length (Object019.014 longer than Object019.017); confirm",
+  "Hands_Cap (Object019.016) and Dial_Detail_Cylinder_049: small parts in front of the dial, function unknown",
+  "Dial_Plate colour: source 'Material' is a mix graph; exported as near-black satin"
+ ],
+ "unclassified": [
+  {
+   "object": "BezierCurve.019",
+   "placed": "Movement/Other/BezierCurve_019",
+   "rule": "unidentified (documented)"
+  },
+  {
+   "object": "BezierCurve.021",
+   "placed": "Movement/Other/BezierCurve_021",
+   "rule": "unidentified (documented)"
+  },
+  {
+   "object": "BezierCurve.022",
+   "placed": "Movement/Other/BezierCurve_022",
+   "rule": "unidentified (documented)"
+  },
+  {
+   "object": "BezierCurve.023",
+   "placed": "Movement/Other/BezierCurve_023",
+   "rule": "unidentified (documented)"
+  },
+  {
+   "object": "BezierCurve.024",
+   "placed": "Movement/Other/BezierCurve_024",
+   "rule": "unidentified (documented)"
+  },
+  {
+   "object": "BezierCurve.025",
+   "placed": "Movement/Other/BezierCurve_025",
+   "rule": "unidentified (documented)"
+  },
+  {
+   "object": "BezierCurve.026",
+   "placed": "Movement/Other/BezierCurve_026",
+   "rule": "unidentified (documented)"
+  },
+  {
+   "object": "Circle.010",
+   "placed": "Movement/Other/Circle_010",
+   "rule": "unidentified (documented)"
+  },
+  {
+   "object": "Circle.013",
+   "placed": "Movement/Other/Circle_013",
+   "rule": "unidentified (documented)"
+  },
+  {
+   "object": "Circle.014",
+   "placed": "Movement/Other/Circle_014",
+   "rule": "unidentified (documented)"
+  },
+  {
+   "object": "Circle.016",
+   "placed": "Movement/Other/Circle_016",
+   "rule": "unidentified (documented)"
+  },
+  {
+   "object": "Cube.009",
+   "placed": "Movement/Other/Cube_009",
+   "rule": "unidentified (documented)"
+  },
+  {
+   "object": "Cylinder.048",
+   "placed": "Movement/Other/Cylinder_048",
+   "rule": "unidentified (documented)"
+  },
+  {
+   "object": "Cylinder.050",
+   "placed": "Movement/Other/Cylinder_050",
+   "rule": "unidentified (documented)"
+  },
+  {
+   "object": "Cylinder.053",
+   "placed": "Movement/Other/Cylinder_053",
+   "rule": "unidentified (documented)"
+  },
+  {
+   "object": "Cylinder.054",
+   "placed": "Movement/Other/Cylinder_054",
+   "rule": "unidentified (documented)"
+  },
+  {
+   "object": "Cylinder.055",
+   "placed": "Movement/Other/Cylinder_055",
+   "rule": "unidentified (documented)"
+  },
+  {
+   "object": "Cylinder.057",
+   "placed": "Movement/Other/Cylinder_057",
+   "rule": "unidentified (documented)"
+  }
+ ],
+ "mapping": {
+  "BALANCE COCK COMPLETE.008": {
+   "path": "Movement/Balance/BALANCE_COCK_COMPLETE_008",
+   "rule": "name"
+  },
+  "BALANCE COCK COMPLETE.009": {
+   "path": "Movement/Balance/BALANCE_COCK_COMPLETE_009",
+   "rule": "name"
+  },
+  "BALANCE COCK COMPLETE.010": {
+   "path": "Movement/Balance/BALANCE_COCK_COMPLETE_010",
+   "rule": "name"
+  },
+  "BALANCE COCK COMPLETE.011": {
+   "path": "Movement/Balance/BALANCE_COCK_COMPLETE_011",
+   "rule": "name"
+  },
+  "BALANCE COCK COMPLETE.012": {
+   "path": "Movement/Balance/BALANCE_COCK_COMPLETE_012",
+   "rule": "name"
+  },
+  "BALANCE COCK COMPLETE.013": {
+   "path": "Movement/Balance/BALANCE_COCK_COMPLETE_013",
+   "rule": "name"
+  },
+  "BALANCE COCK COMPLETE.014": {
+   "path": "Movement/Balance/BALANCE_COCK_COMPLETE_014",
+   "rule": "name"
+  },
+  "BARREL & RACHET WHEEL.002": {
+   "path": "Movement/Barrel/BARREL_RACHET_WHEEL_002",
+   "rule": "name"
+  },
+  "BARREL & RACHET WHEEL.003": {
+   "path": "Movement/Barrel/BARREL_RACHET_WHEEL_003",
+   "rule": "name"
+  },
+  "BezierCircle.002": {
+   "path": "Movement/Hairspring/Hairspring",
+   "rule": "explicit"
+  },
+  "BezierCircle.003": {
+   "path": "Movement/Balance/Balance_Wheel",
+   "rule": "explicit"
+  },
+  "BezierCurve.019": {
+   "path": "Movement/Other/BezierCurve_019",
+   "rule": "unidentified (documented)"
+  },
+  "BezierCurve.021": {
+   "path": "Movement/Other/BezierCurve_021",
+   "rule": "unidentified (documented)"
+  },
+  "BezierCurve.022": {
+   "path": "Movement/Other/BezierCurve_022",
+   "rule": "unidentified (documented)"
+  },
+  "BezierCurve.023": {
+   "path": "Movement/Other/BezierCurve_023",
+   "rule": "unidentified (documented)"
+  },
+  "BezierCurve.024": {
+   "path": "Movement/Other/BezierCurve_024",
+   "rule": "unidentified (documented)"
+  },
+  "BezierCurve.025": {
+   "path": "Movement/Other/BezierCurve_025",
+   "rule": "unidentified (documented)"
+  },
+  "BezierCurve.026": {
+   "path": "Movement/Other/BezierCurve_026",
+   "rule": "unidentified (documented)"
+  },
+  "Circle.010": {
+   "path": "Movement/Other/Circle_010",
+   "rule": "unidentified (documented)"
+  },
+  "Circle.013": {
+   "path": "Movement/Other/Circle_013",
+   "rule": "unidentified (documented)"
+  },
+  "Circle.014": {
+   "path": "Movement/Other/Circle_014",
+   "rule": "unidentified (documented)"
+  },
+  "Circle.016": {
+   "path": "Movement/Other/Circle_016",
+   "rule": "unidentified (documented)"
+  },
+  "Cube.009": {
+   "path": "Movement/Other/Cube_009",
+   "rule": "unidentified (documented)"
+  },
+  "Cube.012": {
+   "path": "Strap/Cube_012",
+   "rule": "band-tree"
+  },
+  "Cube.014": {
+   "path": "Strap/Cube_014",
+   "rule": "band-tree"
+  },
+  "Cube.017": {
+   "path": "Strap/Cube_017",
+   "rule": "band-tree"
+  },
+  "Cylinder.047": {
+   "path": "Hands/Hand_Seconds",
+   "rule": "explicit"
+  },
+  "Cylinder.048": {
+   "path": "Movement/Other/Cylinder_048",
+   "rule": "unidentified (documented)"
+  },
+  "Cylinder.049": {
+   "path": "Dial/Dial_Detail_Cylinder_049",
+   "rule": "explicit"
+  },
+  "Cylinder.050": {
+   "path": "Movement/Other/Cylinder_050",
+   "rule": "unidentified (documented)"
+  },
+  "Cylinder.051": {
+   "path": "Crown/Crown_Part_Cylinder_051",
+   "rule": "geometry:+X of case"
+  },
+  "Cylinder.053": {
+   "path": "Movement/Other/Cylinder_053",
+   "rule": "unidentified (documented)"
+  },
+  "Cylinder.054": {
+   "path": "Movement/Other/Cylinder_054",
+   "rule": "unidentified (documented)"
+  },
+  "Cylinder.055": {
+   "path": "Movement/Other/Cylinder_055",
+   "rule": "unidentified (documented)"
+  },
+  "Cylinder.057": {
+   "path": "Movement/Other/Cylinder_057",
+   "rule": "unidentified (documented)"
+  },
+  "Cylinder.058": {
+   "path": "Movement/GearTrain/Third_Wheel",
+   "rule": "explicit"
+  },
+  "Cylinder.059": {
+   "path": "Movement/GearTrain/Fourth_Wheel",
+   "rule": "explicit"
+  },
+  "Empty.008": {
+   "path": "Movement/Balance/Balance_Pivot",
+   "rule": "explicit"
+  },
+  "OSCILLATING WEIGHT SCREW.001": {
+   "path": "Movement/Rotor/Rotor_Screw",
+   "rule": "explicit"
+  },
+  "OSCILLATING WEIGHT.001": {
+   "path": "Movement/Rotor/Rotor",
+   "rule": "explicit"
+  },
+  "Object017.012": {
+   "path": "Strap/Object017_012",
+   "rule": "band-tree"
+  },
+  "Object019.014": {
+   "path": "Hands/Hand_Minute",
+   "rule": "explicit"
+  },
+  "Object019.015": {
+   "path": "Hands/Hand_Cap_Object019_015",
+   "rule": "geometry:in front of dial, small"
+  },
+  "Object019.016": {
+   "path": "Hands/Hands_Cap",
+   "rule": "explicit"
+  },
+  "Object019.017": {
+   "path": "Hands/Hand_Hour",
+   "rule": "explicit"
+  },
+  "Screw_Large.010": {
+   "path": "Movement/Screws/Screw_Large_010",
+   "rule": "name"
+  },
+  "Screw_Large.011": {
+   "path": "Movement/Screws/Screw_Large_011",
+   "rule": "name"
+  },
+  "Screw_Large.012": {
+   "path": "Movement/Screws/Screw_Large_012",
+   "rule": "name"
+  },
+  "Screw_Large.013": {
+   "path": "Movement/Screws/Screw_Large_013",
+   "rule": "name"
+  },
+  "Screw_Large.014": {
+   "path": "Movement/Screws/Screw_Large_014",
+   "rule": "name"
+  },
+  "Screw_Large.015": {
+   "path": "Movement/Screws/Screw_Large_015",
+   "rule": "name"
+  },
+  "Screw_Large.016": {
+   "path": "Movement/Screws/Screw_Large_016",
+   "rule": "name"
+  },
+  "Sphere.001": {
+   "path": "Movement/Balance/Balance_Jewel",
+   "rule": "explicit"
+  },
+  "Watch face numbers v2": {
+   "path": "Dial/Indices/Index_ v2",
+   "rule": "name"
+  },
+  "Watch face numbers v2.001": {
+   "path": "Dial/Indices/Index_001",
+   "rule": "name"
+  },
+  "Watch face numbers v2.002": {
+   "path": "Dial/Indices/Index_002",
+   "rule": "name"
+  },
+  "Watch face numbers v2.003": {
+   "path": "Dial/Indices/Index_003",
+   "rule": "name"
+  },
+  "Watch face numbers v2.004": {
+   "path": "Dial/Indices/Index_004",
+   "rule": "name"
+  },
+  "Watch face numbers v2.005": {
+   "path": "Dial/Indices/Index_005",
+   "rule": "name"
+  },
+  "Watch face numbers v2.006": {
+   "path": "Dial/Indices/Index_006",
+   "rule": "name"
+  },
+  "Watch face numbers v2.007": {
+   "path": "Dial/Indices/Index_007",
+   "rule": "name"
+  },
+  "Watch face numbers v2.008": {
+   "path": "Dial/Indices/Index_008",
+   "rule": "name"
+  },
+  "Watch face numbers v2.009": {
+   "path": "Dial/Indices/Index_009",
+   "rule": "name"
+  },
+  "Watch face numbers v2.010": {
+   "path": "Dial/Indices/Index_010",
+   "rule": "name"
+  },
+  "Watch face numbers v2.011": {
+   "path": "Dial/Indices/Index_011",
+   "rule": "name"
+  },
+  "escape wheel and pinion.001": {
+   "path": "Movement/Escapement/Escape_Wheel",
+   "rule": "explicit"
+  },
+  "hartley front.001": {
+   "path": "Dial/Logo",
+   "rule": "explicit"
+  },
+  "pallet fork.001": {
+   "path": "Movement/Escapement/Pallet_Fork",
+   "rule": "explicit"
+  },
+  "screw_small.005": {
+   "path": "Movement/Screws/screw_small_005",
+   "rule": "name"
+  },
+  "screw_small.006": {
+   "path": "Movement/Screws/screw_small_006",
+   "rule": "name"
+  },
+  "screw_small.007": {
+   "path": "Movement/Screws/screw_small_007",
+   "rule": "name"
+  },
+  "screw_small.008": {
+   "path": "Movement/Screws/screw_small_008",
+   "rule": "name"
+  },
+  "screw_small.009": {
+   "path": "Movement/Screws/screw_small_009",
+   "rule": "name"
+  },
+  "setting wheel.002": {
+   "path": "Crown/Keyless_002",
+   "rule": "name"
+  },
+  "setting wheel.003": {
+   "path": "Crown/Keyless_003",
+   "rule": "name"
+  },
+  "step to obj": {
+   "path": "Case/Case_Lugs",
+   "rule": "explicit"
+  },
+  "step to obj.001": {
+   "path": "Crystal/Crystal",
+   "rule": "explicit"
+  },
+  "step to obj.003": {
+   "path": "Bezel/Bezel",
+   "rule": "explicit"
+  },
+  "step to obj.004": {
+   "path": "Crown/Crown_Head",
+   "rule": "explicit"
+  },
+  "top plate_2.019": {
+   "path": "Movement/Bridges/top_plate_2_019",
+   "rule": "name"
+  },
+  "top plate_2.020": {
+   "path": "Movement/Bridges/top_plate_2_020",
+   "rule": "name"
+  },
+  "top plate_2.021": {
+   "path": "Movement/Bridges/top_plate_2_021",
+   "rule": "name"
+  },
+  "top plate_2.022": {
+   "path": "Movement/Bridges/top_plate_2_022",
+   "rule": "name"
+  },
+  "top plate_2.023": {
+   "path": "Movement/Bridges/top_plate_2_023",
+   "rule": "name"
+  },
+  "top plate_2.024": {
+   "path": "Movement/Bridges/top_plate_2_024",
+   "rule": "name"
+  },
+  "top plate_2.025": {
+   "path": "Movement/Bridges/top_plate_2_025",
+   "rule": "name"
+  },
+  "watch band left.010": {
+   "path": "Strap/watch_band_left_010",
+   "rule": "band-tree"
+  },
+  "watch band left.011": {
+   "path": "Strap/watch_band_left_011",
+   "rule": "band-tree"
+  },
+  "watch band left.012": {
+   "path": "Strap/watch_band_left_012",
+   "rule": "band-tree"
+  },
+  "watch band left.019": {
+   "path": "Strap/watch_band_left_019",
+   "rule": "band-tree"
+  },
+  "watch band left.020": {
+   "path": "Strap/watch_band_left_020",
+   "rule": "band-tree"
+  },
+  "watch base.003": {
+   "path": "Case/Case_Middle",
+   "rule": "explicit"
+  },
+  "watch base.008": {
+   "path": "Caseback/Caseback_Glass",
+   "rule": "explicit"
+  },
+  "watch base_numbers backplate": {
+   "path": "Dial/Dial_Plate",
+   "rule": "explicit"
+  }
+ },
+ "materials": {
+  "Movement_Brushed": {
+   "textures": {
+    "baseColor": "MetalStainlessSteelBrushed002_COL_2K_METALNESS",
+    "roughness": "MetalStainlessSteelBrushed002_ROUGHNESS_2K_METALNESS",
+    "normal": "MetalStainlessSteelBrushed002_NRM16_2K_METALNESS"
+   },
+   "follows": "none",
+   "sources": [
+    "Cylinder.058[0]:MetalStainlessSteelBrushed002_2K",
+    "BezierCurve.023[0]:MetalStainlessSteelBrushed002_2K",
+    "step to obj.003[1]:MetalStainlessSteelBrushed002_2K",
+    "top plate_2.024[0]:MetalStainlessSteelBrushed002_2K",
+    "BALANCE COCK COMPLETE.008[0]:MetalStainlessSteelBrushed002_2K",
+    "Cylinder.048[0]:MetalStainlessSteelBrushed002_2K",
+    "Cylinder.059[0]:MetalStainlessSteelBrushed002_2K",
+    "BALANCE COCK COMPLETE.014[0]:MetalStainlessSteelBrushed002_2K",
+    "BezierCurve.024[0]:MetalStainlessSteelBrushed002_2K",
+    "Cube.009[0]:MetalStainlessSteelBrushed002_2K",
+    "Cylinder.054[0]:MetalStainlessSteelBrushed002_2K",
+    "top plate_2.025[0]:MetalStainlessSteelBrushed002_2K",
+    "OSCILLATING WEIGHT SCREW.001[0]:MetalStainlessSteelBrushed002_2K",
+    "Cylinder.049[1]:MetalStainlessSteelBrushed002_2K",
+    "top plate_2.020[0]:MetalStainlessSteelBrushed002_2K",
+    "Cylinder.055[0]:MetalStainlessSteelBrushed002_2K",
+    "setting wheel.002[0]:MetalStainlessSteelBrushed002_2K",
+    "BezierCurve.025[0]:MetalStainlessSteelBrushed002_2K",
+    "Screw_Large.016[0]:MetalStainlessSteelBrushed002_2K",
+    "Cylinder.050[0]:MetalStainlessSteelBrushed002_2K",
+    "top plate_2.021[0]:MetalStainlessSteelBrushed002_2K",
+    "setting wheel.003[0]:MetalStainlessSteelBrushed002_2K",
+    "BezierCurve.026[0]:MetalStainlessSteelBrushed002_2K",
+    "Cylinder.051[0]:MetalStainlessSteelBrushed002_2K",
+    "top plate_2.022[0]:MetalStainlessSteelBrushed002_2K",
+    "pallet fork.001[0]:MetalStainlessSteelBrushed002_2K",
+    "Cylinder.057[0]:MetalStainlessSteelBrushed002_2K",
+    "top plate_2.023[0]:MetalStainlessSteelBrushed002_2K"
+   ]
+  },
+  "Movement_Polished": {
+   "textures": {
+    "baseColor": "MetalStainlessSteelBrushed002_COL_2K_METALNESS",
+    "roughness": "MetalStainlessSteelBrushed002_ROUGHNESS_2K_METALNESS",
+    "normal": "MetalStainlessSteelBrushed002_NRM16_2K_METALNESS",
+    "anisotropy": 1.0
+   },
+   "follows": "none",
+   "sources": [
+    "Cylinder.058[1]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "screw_small.009[0]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "Cylinder.053[0]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "BALANCE COCK COMPLETE.013[0]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "escape wheel and pinion.001[1]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "top plate_2.024[1]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "Screw_Large.014[0]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "top plate_2.019[1]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "Cylinder.059[1]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "BARREL & RACHET WHEEL.002[2]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "screw_small.005[0]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "top plate_2.025[1]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "Cylinder.049[0]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "Screw_Large.015[0]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "BALANCE COCK COMPLETE.009[0]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "BezierCurve.019[0]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "Circle.013[0]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "top plate_2.020[1]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "Screw_Large.010[0]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "screw_small.006[0]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "BARREL & RACHET WHEEL.003[2]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "BezierCurve.025[1]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "BALANCE COCK COMPLETE.010[0]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "Circle.014[0]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "top plate_2.021[1]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "Screw_Large.011[0]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "screw_small.007[0]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "BezierCurve.026[1]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "BALANCE COCK COMPLETE.011[0]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "BezierCurve.021[0]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "top plate_2.022[1]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "BezierCircle.002[1]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "Circle.010[0]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "Screw_Large.012[0]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "pallet fork.001[1]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "Cylinder.057[1]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "screw_small.008[0]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "BALANCE COCK COMPLETE.012[0]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "Circle.016[1]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "top plate_2.023[1]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "Screw_Large.013[0]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic",
+    "BezierCircle.003[1]:MetalStainlessSteelBrushed002_2K_shiny_anisotropic"
+   ]
+  },
+  "Movement_Dark": {
+   "textures": {
+    "baseColor": "MetalStainlessSteelBrushed002_COL_2K_METALNESS",
+    "roughness": "MetalStainlessSteelBrushed002_ROUGHNESS_2K_METALNESS",
+    "normal": "MetalStainlessSteelBrushed002_NRM16_2K_METALNESS"
+   },
+   "follows": "none",
+   "sources": [
+    "Cylinder.058[2]:MetalStainlessSteelBrushed002_2K_dark",
+    "escape wheel and pinion.001[2]:MetalStainlessSteelBrushed002_2K_dark",
+    "top plate_2.024[2]:MetalStainlessSteelBrushed002_2K_dark",
+    "top plate_2.019[2]:MetalStainlessSteelBrushed002_2K_dark",
+    "Cylinder.059[2]:MetalStainlessSteelBrushed002_2K_dark",
+    "BARREL & RACHET WHEEL.002[3]:MetalStainlessSteelBrushed002_2K_dark",
+    "top plate_2.025[2]:MetalStainlessSteelBrushed002_2K_dark",
+    "Cylinder.049[2]:MetalStainlessSteelBrushed002_2K_dark",
+    "top plate_2.020[2]:MetalStainlessSteelBrushed002_2K_dark",
+    "BARREL & RACHET WHEEL.003[3]:MetalStainlessSteelBrushed002_2K_dark",
+    "BezierCurve.025[2]:MetalStainlessSteelBrushed002_2K_dark",
+    "top plate_2.021[2]:MetalStainlessSteelBrushed002_2K_dark",
+    "BezierCurve.026[2]:MetalStainlessSteelBrushed002_2K_dark",
+    "top plate_2.022[2]:MetalStainlessSteelBrushed002_2K_dark",
+    "pallet fork.001[2]:MetalStainlessSteelBrushed002_2K_dark",
+    "Cylinder.057[2]:MetalStainlessSteelBrushed002_2K_dark",
+    "Circle.016[2]:MetalStainlessSteelBrushed002_2K_dark",
+    "top plate_2.023[2]:MetalStainlessSteelBrushed002_2K_dark"
+   ]
+  },
+  "Jewel": {
+   "textures": {},
+   "follows": "none",
+   "sources": [
+    "Cylinder.058[3]:purple",
+    "BALANCE COCK COMPLETE.013[1]:purple",
+    "escape wheel and pinion.001[3]:purple",
+    "top plate_2.024[3]:purple",
+    "top plate_2.019[3]:purple",
+    "Cylinder.059[3]:purple",
+    "BARREL & RACHET WHEEL.002[4]:purple",
+    "top plate_2.025[3]:purple",
+    "top plate_2.020[3]:purple",
+    "BARREL & RACHET WHEEL.003[4]:purple",
+    "BezierCurve.025[3]:purple",
+    "top plate_2.021[3]:purple",
+    "BezierCurve.026[3]:purple",
+    "top plate_2.022[3]:purple",
+    "BezierCircle.002[2]:purple",
+    "Sphere.001[0]:purple",
+    "pallet fork.001[3]:purple",
+    "Cylinder.057[3]:purple",
+    "Circle.016[3]:purple",
+    "top plate_2.023[3]:purple",
+    "BezierCircle.003[2]:purple"
+   ]
+  },
+  "Indices": {
+   "textures": {},
+   "follows": "case",
+   "sources": [
+    "Watch face numbers v2.005[0]:MetalStainlessSteelBrushed002_4K_shiny_gold (gold-tree material, no silver twin)",
+    "Watch face numbers v2[0]:MetalStainlessSteelBrushed002_4K_shiny_gold (gold-tree material, no silver twin)",
+    "Watch face numbers v2.011[0]:MetalStainlessSteelBrushed002_4K_shiny_gold (gold-tree material, no silver twin)",
+    "Watch face numbers v2.006[0]:MetalStainlessSteelBrushed002_4K_shiny_gold (gold-tree material, no silver twin)",
+    "Watch face numbers v2.001[0]:MetalStainlessSteelBrushed002_4K_shiny_gold (gold-tree material, no silver twin)",
+    "hartley front.001[0]:metalstainlesssteel shiny_silver",
+    "Watch face numbers v2.007[0]:MetalStainlessSteelBrushed002_4K_shiny_gold (gold-tree material, no silver twin)",
+    "Watch face numbers v2.002[0]:MetalStainlessSteelBrushed002_4K_shiny_gold (gold-tree material, no silver twin)",
+    "Watch face numbers v2.008[0]:MetalStainlessSteelBrushed002_4K_shiny_gold (gold-tree material, no silver twin)",
+    "Watch face numbers v2.003[0]:MetalStainlessSteelBrushed002_4K_shiny_gold (gold-tree material, no silver twin)",
+    "Watch face numbers v2.009[0]:MetalStainlessSteelBrushed002_4K_shiny_gold (gold-tree material, no silver twin)",
+    "Watch face numbers v2.004[0]:MetalStainlessSteelBrushed002_4K_shiny_gold (gold-tree material, no silver twin)",
+    "Watch face numbers v2.010[0]:MetalStainlessSteelBrushed002_4K_shiny_gold (gold-tree material, no silver twin)"
+   ]
+  },
+  "Hands": {
+   "textures": {},
+   "follows": "case",
+   "sources": [
+    "Watch face numbers v2.005[1]:Material.001 (gold-tree material, no silver twin)",
+    "Watch face numbers v2[1]:Material.001 (gold-tree material, no silver twin)",
+    "Object019.017[1]:Material.001 (gold-tree material, no silver twin)",
+    "Watch face numbers v2.011[1]:Material.001 (gold-tree material, no silver twin)",
+    "Watch face numbers v2.006[1]:Material.001 (gold-tree material, no silver twin)",
+    "Watch face numbers v2.001[1]:Material.001 (gold-tree material, no silver twin)",
+    "Watch face numbers v2.007[1]:Material.001 (gold-tree material, no silver twin)",
+    "Watch face numbers v2.002[1]:Material.001 (gold-tree material, no silver twin)",
+    "Object019.014[1]:Material.001 (gold-tree material, no silver twin)",
+    "Watch face numbers v2.008[1]:Material.001 (gold-tree material, no silver twin)",
+    "Watch face numbers v2.003[1]:Material.001 (gold-tree material, no silver twin)",
+    "Object019.015[1]:Material.001 (gold-tree material, no silver twin)",
+    "Watch face numbers v2.009[1]:Material.001 (gold-tree material, no silver twin)",
+    "Watch face numbers v2.004[1]:Material.001 (gold-tree material, no silver twin)",
+    "Object019.016[1]:Material.001",
+    "Cylinder.047[1]:Material.001",
+    "Watch face numbers v2.010[1]:Material.001 (gold-tree material, no silver twin)"
+   ]
+  },
+  "Rotor": {
+   "textures": {
+    "baseColor": "MetalStainlessSteelBrushed002_COL_4K_METALNESS",
+    "normal": "fly wheel normal map.jpg"
+   },
+   "follows": "none",
+   "sources": [
+    "OSCILLATING WEIGHT.001[0]:MetalStainlessSteelBrushed002_4K_shiny_with text"
+   ]
+  },
+  "Movement_Worn": {
+   "textures": {
+    "baseColor": "MetalStainlessSteelBrushedWorn001_COL_4K_METALNESS",
+    "roughness": "MetalStainlessSteelBrushedWorn001_ROUGHNESS_4K_METALNESS",
+    "normal": "MetalStainlessSteelBrushedWorn001_NRM16_4K_METALNESS"
+   },
+   "follows": "none",
+   "sources": [
+    "OSCILLATING WEIGHT.001[1]:MetalStainlessSteelBrushedWorn001_4K",
+    "escape wheel and pinion.001[0]:MetalStainlessSteelBrushedWorn001_4K",
+    "top plate_2.019[0]:MetalStainlessSteelBrushedWorn001_4K",
+    "BARREL & RACHET WHEEL.002[1]:MetalStainlessSteelBrushedWorn001_4K",
+    "BARREL & RACHET WHEEL.003[1]:MetalStainlessSteelBrushedWorn001_4K",
+    "BezierCurve.022[0]:MetalStainlessSteelBrushedWorn001_4K",
+    "Circle.016[0]:MetalStainlessSteelBrushedWorn001_4K"
+   ]
+  },
+  "Case_Polished": {
+   "textures": {},
+   "follows": "case",
+   "sources": [
+    "step to obj.003[0]:metalstainlesssteel shiny_silver",
+    "step to obj.003[3]:metalstainlesssteel shiny_silver",
+    "watch base.003[0]:metalstainlesssteel shiny_silver",
+    "step to obj.004[0]:metalstainlesssteel shiny_silver",
+    "step to obj.004[3]:metalstainlesssteel shiny_silver",
+    "step to obj[0]:metalstainlesssteel shiny_silver",
+    "step to obj[3]:metalstainlesssteel shiny_silver",
+    "step to obj.001[3]:metalstainlesssteel shiny_silver",
+    "Cylinder.047[0]:metalstainlesssteel shiny_silver"
+   ]
+  },
+  "Crystal": {
+   "textures": {},
+   "follows": "none",
+   "sources": [
+    "step to obj.003[2]:x Glass: Clear",
+    "step to obj.004[2]:x Glass: Clear",
+    "step to obj[2]:x Glass: Clear",
+    "watch base.008[0]:x Glass: Clear",
+    "step to obj.001[2]:x Glass: Clear"
+   ]
+  },
+  "Accent": {
+   "textures": {},
+   "follows": "accent",
+   "sources": [
+    "Object019.017[0]:MetalStainlessSteelBrushed002_4K_shiny_gold (gold-tree material, no silver twin)",
+    "top plate_2.019[4]:MetalStainlessSteelBrushed002_4K_shiny_gold",
+    "BALANCE COCK COMPLETE.010[1]:MetalStainlessSteelBrushed002_4K_shiny_gold",
+    "Object019.014[0]:MetalStainlessSteelBrushed002_4K_shiny_gold (gold-tree material, no silver twin)",
+    "step to obj.001[0]:MetalStainlessSteelBrushed002_4K_shiny_gold",
+    "BezierCircle.002[0]:MetalStainlessSteelBrushed002_4K_shiny_gold",
+    "Object019.015[0]:MetalStainlessSteelBrushed002_4K_shiny_gold (gold-tree material, no silver twin)",
+    "Object019.016[0]:MetalStainlessSteelBrushed002_4K_shiny_gold",
+    "BezierCircle.003[0]:MetalStainlessSteelBrushed002_4K_shiny_gold"
+   ]
+  },
+  "Bracelet_Polished": {
+   "textures": {},
+   "follows": "bracelet",
+   "sources": [
+    "watch band left.011[0]:MetalStainlessSteelBrushed002_4K_shiny_gold (gold-tree material, no silver twin)",
+    "watch band left.011[1]:metalstainlesssteel shiny_silver (gold-tree material, no silver twin)",
+    "Cube.014[0]:metalstainlesssteel shiny_silver",
+    "Cube.014[3]:MetalStainlessSteelBrushed002_4K_shiny",
+    "Cube.017[0]:metalstainlesssteel shiny_silver",
+    "Cube.012[0]:metalstainlesssteel shiny_silver",
+    "watch band left.020[0]:MetalStainlessSteelBrushed002_4K_shiny_gold (gold-tree material, no silver twin)"
+   ]
+  },
+  "Bracelet_Brushed": {
+   "textures": {
+    "baseColor": "MetalStainlessSteelBrushed002_COL_4K_METALNESS",
+    "roughness": "MetalStainlessSteelBrushed002_ROUGHNESS_4K_METALNESS",
+    "normal": "MetalStainlessSteelBrushed002_NRM16_2K_METALNESS"
+   },
+   "follows": "bracelet",
+   "sources": [
+    "Cube.014[1]:MetalStainlessSteelBrushed002_2K",
+    "Cube.014[4]:MetalStainlessSteelBrushed002_4K_gold",
+    "watch band left.012[0]:MetalStainlessSteelBrushed002_2K",
+    "Object017.012[0]:MetalStainlessSteelBrushed002_2K",
+    "watch band left.019[0]:MetalStainlessSteelBrushed002_2K",
+    "Cube.017[1]:MetalStainlessSteelBrushed002_4k_gold",
+    "watch band left.010[0]:MetalStainlessSteelBrushed002_2K"
+   ]
+  },
+  "Crown_Knurl": {
+   "textures": {
+    "baseColor": "MetalStainlessSteelBrushed002_COL_4K_METALNESS",
+    "roughness": "MetalStainlessSteelBrushed002_ROUGHNESS_4K_METALNESS",
+    "normal": "MetalStainlessSteelBrushed002_NRM16_2K_METALNESS"
+   },
+   "follows": "case",
+   "sources": [
+    "Cube.014[2]:MetalStainlessSteelBrushed002_4K_corogate_silver",
+    "Cube.014[5]:MetalStainlessSteelBrushed002_4K_corogate",
+    "Cube.017[2]:MetalStainlessSteelBrushed002_4K_corogate_gold"
+   ]
+  },
+  "Case_Satin": {
+   "textures": {},
+   "follows": "case",
+   "sources": [
+    "watch base.003[1]:metalstainlesssteel dull",
+    "watch base.003[2]:metalstainlesssteel dull"
+   ]
+  },
+  "Movement_Radial": {
+   "textures": {
+    "baseColor": "MetalStainlessSteelRadial002_COL_2K_METALNESS",
+    "roughness": "MetalStainlessSteelRadial002_ROUGHNESS_2K_METALNESS",
+    "normal": "MetalStainlessSteelRadial002_NRM16_2K_METALNESS"
+   },
+   "follows": "none",
+   "sources": [
+    "BARREL & RACHET WHEEL.002[0]:MetalStainlessSteelRadial002_2K",
+    "BARREL & RACHET WHEEL.003[0]:MetalStainlessSteelRadial002_2K"
+   ]
+  },
+  "Case_Brushed": {
+   "textures": {
+    "baseColor": "MetalStainlessSteelBrushed002_COL_4K_METALNESS",
+    "roughness": "MetalStainlessSteelBrushed002_ROUGHNESS_4K_METALNESS",
+    "normal": "MetalStainlessSteelBrushed002_NRM16_2K_METALNESS"
+   },
+   "follows": "case",
+   "sources": [
+    "step to obj.004[1]:MetalStainlessSteelBrushed002_4k_silver",
+    "step to obj[1]:MetalStainlessSteelBrushed002_4k_gold",
+    "step to obj.001[1]:MetalStainlessSteelBrushed002_4k_gold"
+   ]
+  },
+  "Dial_Plate": {
+   "textures": {},
+   "follows": "none",
+   "sources": [
+    "watch base_numbers backplate[0]:Material"
+   ]
+  },
+  "Caseback_Glass": {
+   "textures": {},
+   "follows": "none",
+   "sources": [
+    "watch base.008[1]:x Glass: rough"
+   ]
+  }
+ },
+ "images": {
+  "MetalStainlessSteelBrushed002_COL_2K_METALNESS": {
+   "source": "MetalStainlessSteelBrushed002_COL_2K_METALNESS",
+   "size": [
+    2048,
+    2048
+   ]
+  },
+  "MetalStainlessSteelBrushed002_ROUGHNESS_2K_METALNESS": {
+   "source": "MetalStainlessSteelBrushed002_ROUGHNESS_2K_METALNESS",
+   "size": [
+    2048,
+    2048
+   ]
+  },
+  "MetalStainlessSteelBrushed002_NRM16_2K_METALNESS": {
+   "source": "MetalStainlessSteelBrushed002_NRM16_2K_METALNESS",
+   "size": [
+    2048,
+    2048
+   ]
+  },
+  "MetalStainlessSteelBrushed002_COL_4K_METALNESS": {
+   "source": "MetalStainlessSteelBrushed002_COL_4K_METALNESS",
+   "size": [
+    4096,
+    4096
+   ]
+  },
+  "fly wheel normal map": {
+   "source": "fly wheel normal map.jpg",
+   "size": [
+    4096,
+    4096
+   ]
+  },
+  "MetalStainlessSteelBrushedWorn001_COL_4K_METALNESS": {
+   "source": "MetalStainlessSteelBrushedWorn001_COL_4K_METALNESS",
+   "size": [
+    4096,
+    4096
+   ]
+  },
+  "MetalStainlessSteelBrushedWorn001_ROUGHNESS_4K_METALNESS": {
+   "source": "MetalStainlessSteelBrushedWorn001_ROUGHNESS_4K_METALNESS",
+   "size": [
+    4096,
+    4096
+   ]
+  },
+  "MetalStainlessSteelBrushedWorn001_NRM16_4K_METALNESS": {
+   "source": "MetalStainlessSteelBrushedWorn001_NRM16_4K_METALNESS",
+   "size": [
+    4096,
+    4096
+   ]
+  },
+  "MetalStainlessSteelBrushed002_ROUGHNESS_4K_METALNESS": {
+   "source": "MetalStainlessSteelBrushed002_ROUGHNESS_4K_METALNESS",
+   "size": [
+    4096,
+    4096
+   ]
+  },
+  "MetalStainlessSteelRadial002_COL_2K_METALNESS": {
+   "source": "MetalStainlessSteelRadial002_COL_2K_METALNESS",
+   "size": [
+    2048,
+    2048
+   ]
+  },
+  "MetalStainlessSteelRadial002_ROUGHNESS_2K_METALNESS": {
+   "source": "MetalStainlessSteelRadial002_ROUGHNESS_2K_METALNESS",
+   "size": [
+    2048,
+    2048
+   ]
+  },
+  "MetalStainlessSteelRadial002_NRM16_2K_METALNESS": {
+   "source": "MetalStainlessSteelRadial002_NRM16_2K_METALNESS",
+   "size": [
+    2048,
+    2048
+   ]
+  }
+ },
+ "animations": {
+  "HandSeconds": {
+   "object": "Hand_Seconds",
+   "frames": [
+    -570,
+    1229
+   ],
+   "seconds": 59.97
+  },
+  "Balance": {
+   "object": "Balance_Wheel",
+   "frames": [
+    1,
+    43
+   ],
+   "seconds": 1.4
+  },
+  "EscapeWheel": {
+   "object": "Escape_Wheel",
+   "frames": [
+    1,
+    80
+   ],
+   "seconds": 2.63
+  },
+  "PalletFork": {
+   "object": "Pallet_Fork",
+   "frames": [
+    1,
+    80
+   ],
+   "seconds": 2.63
+  },
+  "FourthWheel": {
+   "object": "Fourth_Wheel",
+   "frames": [
+    1,
+    1800
+   ],
+   "seconds": 59.97
+  },
+  "ThirdWheel": {
+   "object": "Third_Wheel",
+   "frames": [
+    1,
+    1800
+   ],
+   "seconds": 59.97
+  },
+  "Hairspring": {
+   "object": "Hairspring.001",
+   "frames": [
+    1,
+    43
+   ],
+   "seconds": 1.4,
+   "type": "shape-key"
+  }
+ },
+ "removed_animations": [
+  {
+   "object": "master parent.001",
+   "action": "master parent.001Action.001",
+   "reason": "staging/parking/beauty-turn"
+  },
+  {
+   "object": "1. gold",
+   "action": "1. goldAction",
+   "reason": "staging/parking/beauty-turn"
+  },
+  {
+   "object": "1.  metal band parent",
+   "action": "1.  metal band parentAction.002",
+   "reason": "staging/parking/beauty-turn"
+  }
+ ],
+ "notes": [
+  "BezierCircle.002: shape keys kept, Solidify left unapplied (flat hairspring ribbon)",
+  "watch band left.018 is hidden in the client file (object flag or excluded/hidden collection) \u2014 boolean helper, modifiers already applied; excluded from export",
+  "watch band left.013 is hidden in the client file (object flag or excluded/hidden collection) \u2014 boolean helper, modifiers already applied; excluded from export",
+  "Cube.018 is hidden in the client file (object flag or excluded/hidden collection) \u2014 boolean helper, modifiers already applied; excluded from export",
+  "Cube.008 had no material (helper / boolean cutter, modifiers already applied) \u2014 excluded from export",
+  "Cube.010 had no material (helper / boolean cutter, modifiers already applied) \u2014 excluded from export",
+  "Cube.011 had no material (helper / boolean cutter, modifiers already applied) \u2014 excluded from export",
+  "Cylinder.056 had no material (helper / boolean cutter, modifiers already applied) \u2014 excluded from export",
+  "Cylinder.052 had no material (helper / boolean cutter, modifiers already applied) \u2014 excluded from export",
+  "root node LegacyWatch carries scale 1.3442 and the centring offset so the case measures 2.098 units (site convention 1 unit = 20.5 mm); children keep client world-space transforms (baked keyframes stay valid)"
+ ],
+ "silver_match": {
+  "matched": 77,
+  "unmatched": [
+   "watch band left.011",
+   "watch band left.020",
+   "Cube.008",
+   "Cube.010",
+   "Cube.018",
+   "Cylinder.052",
+   "Cylinder.056",
+   "Object019.014",
+   "Object019.015",
+   "Object019.017",
+   "watch band left.013",
+   "watch band left.018",
+   "Watch face numbers v2",
+   "Watch face numbers v2.001",
+   "Watch face numbers v2.002",
+   "Watch face numbers v2.003",
+   "Watch face numbers v2.004",
+   "Watch face numbers v2.005",
+   "Watch face numbers v2.006",
+   "Watch face numbers v2.007",
+   "Watch face numbers v2.008",
+   "Watch face numbers v2.009",
+   "Watch face numbers v2.010",
+   "Watch face numbers v2.011"
+  ]
+ },
+ "constraints": {},
+ "linearised": [
+  "Cylinder.058: Cylinder.058Action (1\u20131800)",
+  "Cylinder.059: Cylinder.044Action.001 (1\u20131800)",
+  "Cylinder.047: Cylinder.046Action.001 (-570\u20131229)"
+ ],
+ "pivots": {
+  "Cylinder.058": {
+   "axis_point_local": [
+    0.0,
+    0.0,
+    -0.0087
+   ],
+   "residual": 0.0,
+   "recentred": true
+  },
+  "escape wheel and pinion.001": {
+   "axis_point_local": [
+    0.0,
+    0.0,
+    -0.064
+   ],
+   "residual": 0.0,
+   "recentred": true
+  },
+  "Cylinder.059": {
+   "axis_point_local": [
+    0.0,
+    0.0,
+    -0.0067
+   ],
+   "residual": 0.0,
+   "recentred": true
+  },
+  "pallet fork.001": {
+   "axis_point_local": [
+    0.0,
+    0.0,
+    0.0029
+   ],
+   "residual": 0.0,
+   "recentred": true
+  },
+  "BezierCircle.003": {
+   "axis_point_local": [
+    0.0,
+    0.0,
+    0.0245
+   ],
+   "residual": 0.0,
+   "recentred": true
+  },
+  "Cylinder.047": {
+   "axis_point_local": [
+    0.0,
+    0.0,
+    -1.6065
+   ],
+   "residual": 0.0,
+   "recentred": true
+  }
+ }
+}

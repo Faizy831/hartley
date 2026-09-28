@@ -1,0 +1,857 @@
+{
+  "errors": [],
+  "files": {
+    "heritage-head.glb": {
+      "loadMs": 0,
+      "meshes": 16,
+      "primitives": 16,
+      "triangles": 14840,
+      "materials": [
+        "web_Case_Polished",
+        "web_Caseback",
+        "web_Case_Brushed",
+        "web_Crown_Polished",
+        "web_Crystal",
+        "web_Crystal_Edge",
+        "web_Dial_White",
+        "web_Dial_Black",
+        "web_Indices",
+        "web_Hands",
+        "web_Rehaut_White",
+        "web_Rehaut_Black"
+      ],
+      "textures": [
+        "Caseback_color:1024x1024",
+        "Caseback_normal:1024x1024",
+        "Caseback_rough:1024x1024",
+        "MetalStainlessSteelBrushed002_COL_2K_METALNESS:2048x2048",
+        "MetalStainlessSteelBrushed002_ROUGHNESS_2K_METALNESS:2048x2048",
+        "Dial_color:2048x2048",
+        "Dial_normal:2048x2048",
+        "Dial_metal-Dial_rough:2048x2048",
+        "Dial_Black_color:2048x2048",
+        "Dial_Black_normal:2048x2048",
+        "Dial_Black_rough:2048x2048"
+      ],
+      "nodes": 21,
+      "hierarchy": [
+        "HeritageWatch",
+        "  Case * 6628 [web_Case_Polished]",
+        "  Caseback * 1430 [web_Caseback]",
+        "  Caseback_Ring * 282 [web_Case_Brushed]",
+        "  Crown * 1682 [web_Crown_Polished]",
+        "  Crown_Tip * 1156 [web_Case_Brushed]",
+        "  Crystal",
+        "    Crystal_1 * 500 [web_Crystal]",
+        "    Crystal_2 * 252 [web_Crystal_Edge]",
+        "  Dial * 376 [web_Dial_White]",
+        "  Dial_Black * 376 [web_Dial_Black]",
+        "  Hands",
+        "    Hands_Post * 142 [web_Indices]",
+        "    Hour * 54 [web_Hands]",
+        "    Minute * 54 [web_Hands]",
+        "    SecondsPivot",
+        "      Second * 276 [web_Hands]",
+        "  Indices * 624 [web_Indices]",
+        "  Rehaut * 504 [web_Rehaut_White]",
+        "  Rehaut_Black * 504 [web_Rehaut_Black]"
+      ],
+      "cameras": 0,
+      "animations": [
+        {
+          "name": "HeritageSeconds",
+          "duration": 60,
+          "tracks": [
+            "SecondsPivot.quaternion"
+          ],
+          "keys": [
+            181
+          ],
+          "targetFound": true,
+          "tipAnglesClockwise": [
+            0,
+            90,
+            180,
+            270,
+            359.9
+          ],
+          "maxStepDeviationDeg": 0
+        }
+      ],
+      "bbox": {
+        "min": [
+          -0.9756,
+          -1.1415,
+          -0.1919
+        ],
+        "max": [
+          1.071,
+          1.1415,
+          0.1919
+        ],
+        "size": [
+          2.0466,
+          2.2829,
+          0.3838
+        ]
+      },
+      "unnamed": 0,
+      "transmissive": [
+        "Crystal_1:web_Crystal",
+        "Crystal_2:web_Crystal_Edge"
+      ],
+      "nanGeometry": [],
+      "degenerate": [],
+      "parts": {
+        "Case": {
+          "size": [
+            1.951,
+            2.283,
+            0.356
+          ],
+          "centre": [
+            0,
+            0,
+            0.001
+          ],
+          "tris": 6628
+        },
+        "Caseback": {
+          "size": [
+            1.268,
+            1.268,
+            0.05
+          ],
+          "centre": [
+            0,
+            0,
+            -0.167
+          ],
+          "tris": 1430
+        },
+        "Caseback_Ring": {
+          "size": [
+            1.268,
+            1.268,
+            0.029
+          ],
+          "centre": [
+            0,
+            0,
+            -0.133
+          ],
+          "tris": 282
+        },
+        "Crown": {
+          "size": [
+            0.254,
+            0.194,
+            0.194
+          ],
+          "centre": [
+            0.941,
+            0,
+            -0.031
+          ],
+          "tris": 1682
+        },
+        "Crown_Tip": {
+          "size": [
+            0.025,
+            0.091,
+            0.088
+          ],
+          "centre": [
+            1.058,
+            -0.001,
+            -0.031
+          ],
+          "tris": 1156
+        },
+        "Crystal_1": {
+          "size": [
+            1.843,
+            1.843,
+            0.021
+          ],
+          "centre": [
+            0,
+            0,
+            0.181
+          ],
+          "tris": 500
+        },
+        "Crystal_2": {
+          "size": [
+            1.843,
+            1.843,
+            0.021
+          ],
+          "centre": [
+            0,
+            0,
+            0.181
+          ],
+          "tris": 252
+        },
+        "Dial": {
+          "size": [
+            1.843,
+            1.843,
+            0
+          ],
+          "centre": [
+            0,
+            0,
+            0.098
+          ],
+          "tris": 376
+        },
+        "Dial_Black": {
+          "size": [
+            1.843,
+            1.843,
+            0
+          ],
+          "centre": [
+            0,
+            0,
+            0.098
+          ],
+          "tris": 376
+        },
+        "Hands_Post": {
+          "size": [
+            0.021,
+            0.021,
+            0.053
+          ],
+          "centre": [
+            -0.009,
+            0.003,
+            0.132
+          ],
+          "tris": 142
+        },
+        "Hour": {
+          "size": [
+            0.081,
+            0.658,
+            0.008
+          ],
+          "centre": [
+            -0.009,
+            0.231,
+            0.118
+          ],
+          "tris": 54
+        },
+        "Minute": {
+          "size": [
+            0.084,
+            0.848,
+            0.009
+          ],
+          "centre": [
+            -0.009,
+            0.318,
+            0.13
+          ],
+          "tris": 54
+        },
+        "Second": {
+          "size": [
+            0.061,
+            0.926,
+            0.015
+          ],
+          "centre": [
+            -0.009,
+            0.298,
+            0.144
+          ],
+          "tris": 276
+        },
+        "Indices": {
+          "size": [
+            1.787,
+            1.787,
+            0.019
+          ],
+          "centre": [
+            -0.001,
+            0,
+            0.095
+          ],
+          "tris": 624
+        },
+        "Rehaut": {
+          "size": [
+            1.843,
+            1.843,
+            0.156
+          ],
+          "centre": [
+            0,
+            0,
+            0.101
+          ],
+          "tris": 504
+        },
+        "Rehaut_Black": {
+          "size": [
+            1.843,
+            1.843,
+            0.156
+          ],
+          "centre": [
+            0,
+            0,
+            0.101
+          ],
+          "tris": 504
+        }
+      }
+    },
+    "leather-black.glb": {
+      "loadMs": 0,
+      "meshes": 8,
+      "primitives": 8,
+      "triangles": 88632,
+      "materials": [
+        "web_Bracelet_Buckle",
+        "web_Leather_Stitch",
+        "web_Leather_Lining_Strap_Long",
+        "web_Leather_Strap_Long",
+        "web_Bracelet_Keeper",
+        "web_Leather_Strap_Short",
+        "web_Leather_Lining_Strap_Short"
+      ],
+      "textures": [
+        "Buckle_normal:1024x1024",
+        "Buckle_rough:1024x1024",
+        "Strap_Long_Leather_Lining_color:512x512",
+        "Strap_Long_Leather_Lining_normal:512x512",
+        "Strap_Long_Leather_normal:2048x2048",
+        "Strap_Long_Leather_rough:2048x2048",
+        "Strap_Short_Leather_normal:2048x2048",
+        "Strap_Short_Leather_rough:2048x2048",
+        "Strap_Short_Leather_Lining_color:512x512",
+        "Strap_Short_Leather_Lining_normal:512x512"
+      ],
+      "nodes": 12,
+      "hierarchy": [
+        "HeritageStrap_LeatherBlack",
+        "  Buckle * 17696 [web_Bracelet_Buckle]",
+        "  Strap_Long",
+        "    Strap_Long_1 * 9936 [web_Leather_Stitch]",
+        "    Strap_Long_2 * 348 [web_Leather_Lining_Strap_Long]",
+        "    Strap_Long_3 * 39532 [web_Leather_Strap_Long]",
+        "    Strap_Long_4 * 3328 [web_Bracelet_Keeper]",
+        "  Strap_Short",
+        "    Strap_Short_1 * 3328 [web_Bracelet_Keeper]",
+        "    Strap_Short_2 * 11944 [web_Leather_Strap_Short]",
+        "    Strap_Short_3 * 2520 [web_Leather_Lining_Strap_Short]"
+      ],
+      "cameras": 0,
+      "animations": [],
+      "bbox": {
+        "min": [
+          -0.5896,
+          -2.1893,
+          -3.1717
+        ],
+        "max": [
+          0.59,
+          2.0556,
+          0.4806
+        ],
+        "size": [
+          1.1796,
+          4.2449,
+          3.6522
+        ]
+      },
+      "unnamed": 0,
+      "transmissive": [],
+      "nanGeometry": [],
+      "degenerate": [],
+      "parts": {
+        "Buckle": {
+          "size": [
+            1.175,
+            0.868,
+            0.671
+          ],
+          "centre": [
+            -0.002,
+            -0.007,
+            -2.705
+          ],
+          "tris": 17696
+        },
+        "Strap_Long_1": {
+          "size": [
+            0.248,
+            0.286,
+            0.188
+          ],
+          "centre": [
+            -0.018,
+            -1.13,
+            -2.258
+          ],
+          "tris": 9936
+        },
+        "Strap_Long_2": {
+          "size": [
+            0.992,
+            1.459,
+            2.11
+          ],
+          "centre": [
+            0.008,
+            -1.128,
+            -1.433
+          ],
+          "tris": 348
+        },
+        "Strap_Long_3": {
+          "size": [
+            1.143,
+            2.216,
+            2.843
+          ],
+          "centre": [
+            0.019,
+            -0.879,
+            -1.341
+          ],
+          "tris": 39532
+        },
+        "Strap_Long_4": {
+          "size": [
+            1.087,
+            0.143,
+            0.18
+          ],
+          "centre": [
+            0,
+            -1.068,
+            -0.15
+          ],
+          "tris": 3328
+        },
+        "Strap_Short_1": {
+          "size": [
+            1.087,
+            0.128,
+            0.174
+          ],
+          "centre": [
+            -0.004,
+            1.058,
+            -0.144
+          ],
+          "tris": 3328
+        },
+        "Strap_Short_2": {
+          "size": [
+            0.98,
+            4.245,
+            3.652
+          ],
+          "centre": [
+            -0.004,
+            -0.067,
+            -1.346
+          ],
+          "tris": 11944
+        },
+        "Strap_Short_3": {
+          "size": [
+            0.978,
+            4.043,
+            3.258
+          ],
+          "centre": [
+            -0.004,
+            -0.111,
+            -1.43
+          ],
+          "tris": 2520
+        }
+      }
+    }
+  },
+  "done": true,
+  "drawCalls": 22,
+  "renderTriangles": 102592,
+  "programs": 12,
+  "textures": 21,
+  "geometries": 35,
+  "probe": {
+    "nan": 0,
+    "inf": 0,
+    "max": 88.18
+  },
+  "finish": "silver",
+  "dial": "white",
+  "view": "front",
+  "perShot": {
+    "silver-front": {
+      "drawCalls": 22,
+      "triangles": 102592,
+      "programs": 12,
+      "probe": {
+        "nan": 0,
+        "inf": 0,
+        "max": 88.18
+      },
+      "errors": [],
+      "strapFiles": [
+        "heritage-head.glb",
+        "leather-black.glb"
+      ]
+    },
+    "silver-three": {
+      "drawCalls": 22,
+      "triangles": 102592,
+      "programs": 12,
+      "probe": {
+        "nan": 0,
+        "inf": 0,
+        "max": 30.96
+      },
+      "errors": [],
+      "strapFiles": [
+        "heritage-head.glb",
+        "leather-black.glb"
+      ]
+    },
+    "silver-back": {
+      "drawCalls": 22,
+      "triangles": 102592,
+      "programs": 12,
+      "probe": {
+        "nan": 0,
+        "inf": 0,
+        "max": 46.79
+      },
+      "errors": [],
+      "strapFiles": [
+        "heritage-head.glb",
+        "leather-black.glb"
+      ]
+    },
+    "silver-side": {
+      "drawCalls": 20,
+      "triangles": 74960,
+      "programs": 12,
+      "probe": {
+        "nan": 0,
+        "inf": 0,
+        "max": 12.23
+      },
+      "errors": [],
+      "strapFiles": [
+        "heritage-head.glb",
+        "leather-black.glb"
+      ]
+    },
+    "silver-dial-closeup": {
+      "drawCalls": 21,
+      "triangles": 101436,
+      "programs": 12,
+      "probe": {
+        "nan": 0,
+        "inf": 0,
+        "max": 27.47
+      },
+      "errors": [],
+      "strapFiles": [
+        "heritage-head.glb",
+        "leather-black.glb"
+      ]
+    },
+    "gold-three": {
+      "drawCalls": 22,
+      "triangles": 102592,
+      "programs": 12,
+      "probe": {
+        "nan": 0,
+        "inf": 0,
+        "max": 26.99
+      },
+      "errors": [],
+      "strapFiles": [
+        "heritage-head.glb",
+        "leather-black.glb"
+      ]
+    },
+    "rosegold-black-front": {
+      "drawCalls": 22,
+      "triangles": 102592,
+      "programs": 12,
+      "probe": {
+        "nan": 0,
+        "inf": 0,
+        "max": 95.62
+      },
+      "errors": [],
+      "strapFiles": [
+        "heritage-head.glb",
+        "leather-black.glb"
+      ]
+    },
+    "rosegold-white-three": {
+      "drawCalls": 22,
+      "triangles": 102592,
+      "programs": 12,
+      "probe": {
+        "nan": 0,
+        "inf": 0,
+        "max": 33.57
+      },
+      "errors": [],
+      "strapFiles": [
+        "heritage-head.glb",
+        "leather-black.glb"
+      ]
+    },
+    "black-three": {
+      "drawCalls": 22,
+      "triangles": 102592,
+      "programs": 12,
+      "probe": {
+        "nan": 0,
+        "inf": 0,
+        "max": 15.97
+      },
+      "errors": [],
+      "strapFiles": [
+        "heritage-head.glb",
+        "leather-black.glb"
+      ]
+    },
+    "black-dial-closeup": {
+      "drawCalls": 21,
+      "triangles": 101436,
+      "programs": 12,
+      "probe": {
+        "nan": 0,
+        "inf": 0,
+        "max": 27.47
+      },
+      "errors": [],
+      "strapFiles": [
+        "heritage-head.glb",
+        "leather-black.glb"
+      ]
+    },
+    "mesh-silver-three": {
+      "drawCalls": 22,
+      "triangles": 265011,
+      "programs": 10,
+      "probe": {
+        "nan": 0,
+        "inf": 0,
+        "max": 30.96
+      },
+      "errors": [],
+      "strapFiles": [
+        "heritage-head.glb",
+        "mesh-silver.glb"
+      ]
+    },
+    "mesh-silver-strap": {
+      "drawCalls": 22,
+      "triangles": 265011,
+      "programs": 10,
+      "probe": {
+        "nan": 0,
+        "inf": 0,
+        "max": 30.95
+      },
+      "errors": [],
+      "strapFiles": [
+        "heritage-head.glb",
+        "mesh-silver.glb"
+      ]
+    },
+    "mesh-links-closeup": {
+      "drawCalls": 11,
+      "triangles": 223857,
+      "programs": 9,
+      "probe": {
+        "nan": 0,
+        "inf": 0,
+        "max": 76.97
+      },
+      "errors": [],
+      "strapFiles": [
+        "heritage-head.glb",
+        "mesh-silver.glb"
+      ]
+    },
+    "mesh-clasp-closeup": {
+      "drawCalls": 22,
+      "triangles": 265011,
+      "programs": 10,
+      "probe": {
+        "nan": 0,
+        "inf": 0,
+        "max": 368.31
+      },
+      "errors": [],
+      "strapFiles": [
+        "heritage-head.glb",
+        "mesh-silver.glb"
+      ]
+    },
+    "caseback-closeup": {
+      "drawCalls": 13,
+      "triangles": 12804,
+      "programs": 10,
+      "probe": {
+        "nan": 0,
+        "inf": 0,
+        "max": 3958.24
+      },
+      "errors": [],
+      "strapFiles": [
+        "heritage-head.glb"
+      ]
+    },
+    "caseback-black-closeup": {
+      "drawCalls": 13,
+      "triangles": 12804,
+      "programs": 10,
+      "probe": {
+        "nan": 0,
+        "inf": 0,
+        "max": 507.95
+      },
+      "errors": [],
+      "strapFiles": [
+        "heritage-head.glb"
+      ]
+    },
+    "mesh-black-back": {
+      "drawCalls": 22,
+      "triangles": 265011,
+      "programs": 10,
+      "probe": {
+        "nan": 0,
+        "inf": 0,
+        "max": 52.05
+      },
+      "errors": [],
+      "strapFiles": [
+        "heritage-head.glb",
+        "mesh-silver.glb"
+      ]
+    },
+    "leather-strap": {
+      "drawCalls": 22,
+      "triangles": 102592,
+      "programs": 12,
+      "probe": {
+        "nan": 0,
+        "inf": 0,
+        "max": 30.96
+      },
+      "errors": [],
+      "strapFiles": [
+        "heritage-head.glb",
+        "leather-black.glb"
+      ]
+    },
+    "leather-buckle-closeup": {
+      "drawCalls": 21,
+      "triangles": 92656,
+      "programs": 12,
+      "probe": {
+        "nan": 0,
+        "inf": 0,
+        "max": 94.08
+      },
+      "errors": [],
+      "strapFiles": [
+        "heritage-head.glb",
+        "leather-black.glb"
+      ]
+    },
+    "leather-closeup": {
+      "drawCalls": 14,
+      "triangles": 85964,
+      "programs": 12,
+      "probe": {
+        "nan": 0,
+        "inf": 0,
+        "max": 3944.28
+      },
+      "errors": [],
+      "strapFiles": [
+        "heritage-head.glb",
+        "leather-black.glb"
+      ]
+    },
+    "crown-closeup": {
+      "drawCalls": 14,
+      "triangles": 13960,
+      "programs": 10,
+      "probe": {
+        "nan": 0,
+        "inf": 0,
+        "max": 12.23
+      },
+      "errors": [],
+      "strapFiles": [
+        "heritage-head.glb"
+      ]
+    },
+    "crystal-transmission": {
+      "drawCalls": 28,
+      "triangles": 27920,
+      "programs": 14,
+      "probe": {
+        "nan": 0,
+        "inf": 0,
+        "max": 30.96
+      },
+      "errors": [],
+      "strapFiles": [
+        "heritage-head.glb"
+      ]
+    },
+    "seconds-t0": {
+      "drawCalls": 14,
+      "triangles": 13960,
+      "programs": 10,
+      "probe": {
+        "nan": 0,
+        "inf": 0,
+        "max": 27.46
+      },
+      "errors": [],
+      "strapFiles": [
+        "heritage-head.glb"
+      ]
+    },
+    "seconds-t15": {
+      "drawCalls": 14,
+      "triangles": 13960,
+      "programs": 10,
+      "probe": {
+        "nan": 0,
+        "inf": 0,
+        "max": 27.46
+      },
+      "errors": [],
+      "strapFiles": [
+        "heritage-head.glb"
+      ]
+    }
+  }
+}

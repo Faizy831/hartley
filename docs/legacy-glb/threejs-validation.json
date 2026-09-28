@@ -1,0 +1,937 @@
+{
+  "errors": [],
+  "files": {
+    "legacy-head.glb": {
+      "loadMs": 1261,
+      "meshes": 116,
+      "triangles": 280998,
+      "materials": [
+        "web_Steel_Polished",
+        "web_Steel_Brushed",
+        "web_Glass",
+        "web_Dial_Plate",
+        "web_Hand_Light",
+        "web_Jewel",
+        "web_Steel_Radial",
+        "web_Steel_Worn",
+        "web_Steel_RotorText"
+      ],
+      "textures": [
+        "MetalStainlessSteelBrushed002_COL_2K_METALNESS:2048x2048",
+        "MetalStainlessSteelBrushed002_NRM16_2K_METALNESS:2048x2048",
+        "MetalStainlessSteelBrushed002_ROUGHNESS_2K_METALNESS:2048x2048",
+        "MetalStainlessSteelRadial002_COL_2K_METALNESS:2048x2048",
+        "MetalStainlessSteelRadial002_NRM16_2K_METALNESS:2048x2048",
+        "MetalStainlessSteelRadial002_ROUGHNESS_2K_METALNESS:2048x2048",
+        "MetalStainlessSteelBrushedWorn001_COL_4K_METALNESS:2048x2048",
+        "MetalStainlessSteelBrushedWorn001_NRM16_4K_METALNESS:2048x2048",
+        "MetalStainlessSteelBrushedWorn001_ROUGHNESS_4K_METALNESS:2048x2048",
+        "fly wheel normal map:2048x2048"
+      ],
+      "morph": [
+        "Hairspring001 targets=1"
+      ],
+      "nodes": 162,
+      "hierarchy": [
+        "LegacyWatch",
+        "  Bezel",
+        "    Bezel001 (+2)",
+        "  Case",
+        "    Case_Lugs *",
+        "    Case_Middle (+3)",
+        "  Caseback",
+        "    Caseback_Glass (+2)",
+        "  Crown",
+        "    Crown_Head (+2)",
+        "    Crown_Part_Cylinder_051 *",
+        "    Keyless_002 (+2)",
+        "    Keyless_003 (+2)",
+        "  Crystal",
+        "    Crystal001 *",
+        "  Dial",
+        "    Dial_Detail_Cylinder_049 (+3)",
+        "    Dial_Plate *",
+        "    Indices (+12)",
+        "    Logo *",
+        "  Hands",
+        "    Hand_Hour (+2)",
+        "    Hand_Minute (+2)",
+        "    Hand_Seconds *",
+        "    Hands_Cap *",
+        "  Movement",
+        "    Balance (+9)",
+        "    Barrel (+2)",
+        "    Bridges (+7)",
+        "    Escapement (+2)",
+        "    GearTrain (+2)",
+        "    Hairspring (+1)",
+        "    Other (+18)",
+        "    Rotor (+2)",
+        "    Screws (+12)"
+      ],
+      "cameras": 0,
+      "animations": [
+        {
+          "name": "HandSeconds",
+          "duration": 59.967,
+          "tracks": [
+            "Hand_Seconds.position",
+            "Hand_Seconds.quaternion",
+            "Hand_Seconds.scale"
+          ],
+          "targetFound": true,
+          "t0": 0,
+          "keys": 2,
+          "pos0": [
+            0.023,
+            2.295,
+            2.168
+          ],
+          "posDrift": 0.0005,
+          "movesAt0_37s": true
+        },
+        {
+          "name": "Balance",
+          "duration": 1.433,
+          "tracks": [
+            "Balance_Wheel.position",
+            "Balance_Wheel.quaternion",
+            "Balance_Wheel.scale"
+          ],
+          "targetFound": true,
+          "t0": 0.033,
+          "keys": 2,
+          "pos0": [
+            -0.084,
+            2.07,
+            2.084
+          ],
+          "posDrift": 0.0006,
+          "movesAt0_37s": true
+        },
+        {
+          "name": "EscapeWheel",
+          "duration": 2.667,
+          "tracks": [
+            "Escape_Wheel.position",
+            "Escape_Wheel.quaternion",
+            "Escape_Wheel.scale"
+          ],
+          "targetFound": true,
+          "t0": 0.033,
+          "keys": 2,
+          "pos0": [
+            0.098,
+            2.031,
+            2.079
+          ],
+          "posDrift": 0.0005,
+          "movesAt0_37s": true
+        },
+        {
+          "name": "PalletFork",
+          "duration": 2.667,
+          "tracks": [
+            "Pallet_Fork.position",
+            "Pallet_Fork.quaternion",
+            "Pallet_Fork.scale"
+          ],
+          "targetFound": true,
+          "t0": 0.033,
+          "keys": 2,
+          "pos0": [
+            0.003,
+            2.054,
+            2.113
+          ],
+          "posDrift": 0.0005,
+          "movesAt0_37s": true
+        },
+        {
+          "name": "FourthWheel",
+          "duration": 60,
+          "tracks": [
+            "Fourth_Wheel.position",
+            "Fourth_Wheel.quaternion",
+            "Fourth_Wheel.scale"
+          ],
+          "targetFound": true,
+          "t0": 0.033,
+          "keys": 2,
+          "pos0": [
+            0.132,
+            2.105,
+            2.018
+          ],
+          "posDrift": 0.0004,
+          "movesAt0_37s": true
+        },
+        {
+          "name": "ThirdWheel",
+          "duration": 60,
+          "tracks": [
+            "Third_Wheel.position",
+            "Third_Wheel.quaternion",
+            "Third_Wheel.scale"
+          ],
+          "targetFound": true,
+          "t0": 0.033,
+          "keys": 2,
+          "pos0": [
+            0.109,
+            2.207,
+            2.008
+          ],
+          "posDrift": 0.0004,
+          "movesAt0_37s": true
+        },
+        {
+          "name": "Hairspring",
+          "duration": 1.433,
+          "tracks": [
+            "Hairspring001.morphTargetInfluences"
+          ],
+          "targetFound": true,
+          "t0": 0.033,
+          "keys": 41,
+          "pos0": [
+            -0.084,
+            2.066,
+            2.06
+          ],
+          "movesAt0_37s": true
+        }
+      ],
+      "bbox": {
+        "min": [
+          -0.943,
+          -1.049,
+          -0.361
+        ],
+        "max": [
+          1.025,
+          1.049,
+          0.442
+        ],
+        "size": [
+          1.968,
+          2.098,
+          0.803
+        ]
+      },
+      "unnamed": 0,
+      "groups": {
+        "Bezel": 2,
+        "Case": 4,
+        "Caseback": 2,
+        "Crown": 7,
+        "Crystal": 1,
+        "Dial": 17,
+        "Hands": 6,
+        "Movement": 77
+      },
+      "largest": [
+        {
+          "name": "Case/Case_Lugs",
+          "size": [
+            1.89,
+            2.1,
+            0.72
+          ],
+          "centre": [
+            0,
+            0,
+            0
+          ],
+          "tris": 11836
+        },
+        {
+          "name": "Bezel001/obj1003_web",
+          "size": [
+            1.76,
+            1.75,
+            0.41
+          ],
+          "centre": [
+            0,
+            0.04,
+            0.24
+          ],
+          "tris": 2784
+        },
+        {
+          "name": "Bezel001/obj1003_web_1",
+          "size": [
+            1.69,
+            1.69,
+            0.43
+          ],
+          "centre": [
+            0,
+            0.04,
+            0.22
+          ],
+          "tris": 1964
+        },
+        {
+          "name": "Case_Middle/Mesh1157_web_1",
+          "size": [
+            1.66,
+            1.64,
+            0.31
+          ],
+          "centre": [
+            0,
+            -0.01,
+            -0.08
+          ],
+          "tris": 2323
+        },
+        {
+          "name": "Case_Middle/Mesh1157_web",
+          "size": [
+            1.61,
+            1.63,
+            0.38
+          ],
+          "centre": [
+            0,
+            -0.03,
+            -0.12
+          ],
+          "tris": 26722
+        },
+        {
+          "name": "Dial/Dial_Plate",
+          "size": [
+            1.4,
+            1.39,
+            0.26
+          ],
+          "centre": [
+            0,
+            0.03,
+            0.14
+          ],
+          "tris": 11344
+        },
+        {
+          "name": "Crystal/Crystal001",
+          "size": [
+            1.39,
+            1.37,
+            0.3
+          ],
+          "centre": [
+            0,
+            0.05,
+            0.27
+          ],
+          "tris": 1162
+        },
+        {
+          "name": "Case_Middle/Mesh1157_web_2",
+          "size": [
+            1.31,
+            1.28,
+            0.23
+          ],
+          "centre": [
+            0,
+            -0.03,
+            -0.17
+          ],
+          "tris": 7624
+        },
+        {
+          "name": "top_plate_2_019/Circle049_web",
+          "size": [
+            1.22,
+            1.23,
+            0.37
+          ],
+          "centre": [
+            0.01,
+            0,
+            0.05
+          ],
+          "tris": 15502
+        },
+        {
+          "name": "Rotor001/Circle079_web_1",
+          "size": [
+            1.13,
+            0.59,
+            0.13
+          ],
+          "centre": [
+            -0.01,
+            -0.29,
+            -0.01
+          ],
+          "tris": 1244
+        },
+        {
+          "name": "Caseback_Glass/Mesh1260_web",
+          "size": [
+            1.08,
+            1.07,
+            0.21
+          ],
+          "centre": [
+            0,
+            -0.03,
+            -0.17
+          ],
+          "tris": 544
+        },
+        {
+          "name": "Caseback_Glass/Mesh1260_web_1",
+          "size": [
+            1.08,
+            1.07,
+            0.21
+          ],
+          "centre": [
+            0,
+            -0.03,
+            -0.17
+          ],
+          "tris": 1096
+        }
+      ],
+      "outliers": [],
+      "hands": [
+        {
+          "name": "Hand_Hour/Mesh1153_web",
+          "size": [
+            0.313,
+            0.297,
+            0.066
+          ],
+          "centre": [
+            -0.102,
+            0.124,
+            0.158
+          ],
+          "tris": 1140,
+          "pivot": [
+            -0.108,
+            0.141,
+            0.194
+          ]
+        },
+        {
+          "name": "Hand_Hour/Mesh1153_web_1",
+          "size": [
+            0.129,
+            0.124,
+            0.022
+          ],
+          "centre": [
+            -0.178,
+            0.196,
+            0.143
+          ],
+          "tris": 16,
+          "pivot": [
+            -0.108,
+            0.141,
+            0.194
+          ]
+        },
+        {
+          "name": "Hand_Minute/Mesh1150_web",
+          "size": [
+            0.514,
+            0.445,
+            0.109
+          ],
+          "centre": [
+            0.199,
+            0.201,
+            0.17
+          ],
+          "tris": 1310,
+          "pivot": [
+            0.012,
+            0.184,
+            0.186
+          ]
+        },
+        {
+          "name": "Hand_Minute/Mesh1150_web_1",
+          "size": [
+            0.225,
+            0.199,
+            0.035
+          ],
+          "centre": [
+            0.31,
+            0.291,
+            0.143
+          ],
+          "tris": 16,
+          "pivot": [
+            0.012,
+            0.184,
+            0.186
+          ]
+        },
+        {
+          "name": "Hands/Hand_Seconds",
+          "size": [
+            0.756,
+            0.381,
+            0.073
+          ],
+          "centre": [
+            0.187,
+            -0.044,
+            0.225
+          ],
+          "tris": 3140,
+          "pivot": [
+            -0.002,
+            0.038,
+            0.211
+          ]
+        },
+        {
+          "name": "Hands/Hands_Cap",
+          "size": [
+            0.067,
+            0.077,
+            0.072
+          ],
+          "centre": [
+            -0.002,
+            0.034,
+            0.189
+          ],
+          "tris": 1340,
+          "pivot": [
+            0,
+            0.185,
+            0.186
+          ]
+        }
+      ],
+      "bannedAnimationNames": []
+    },
+    "steel-bracelet.glb": {
+      "loadMs": 269,
+      "meshes": 13,
+      "triangles": 78353,
+      "materials": [
+        "web_Steel_Polished",
+        "web_Steel_Brushed",
+        "web_Steel_Knurled"
+      ],
+      "textures": [
+        "MetalStainlessSteelBrushed002_COL_2K_METALNESS:2048x2048",
+        "MetalStainlessSteelBrushed002_NRM16_2K_METALNESS:2048x2048",
+        "MetalStainlessSteelBrushed002_ROUGHNESS_2K_METALNESS:2048x2048",
+        "MetalStainlessSteelBrushed002_NRM_2K_METALNESS:2048x2048"
+      ],
+      "morph": [],
+      "nodes": 17,
+      "hierarchy": [
+        "LegacyStrap_SteelBracelet",
+        "  Cube_012 *",
+        "  Cube_014",
+        "    Cube057_web *",
+        "    Cube057_web_1 *",
+        "    Cube057_web_2 *",
+        "    Cube057_web_3 *",
+        "  Cube_017 *",
+        "  Object017_012 *",
+        "  watch_band_left_010 *",
+        "  watch_band_left_011",
+        "    Mesh1161_web *",
+        "    Mesh1161_web_1 *",
+        "  watch_band_left_012 *",
+        "  watch_band_left_019 *",
+        "  watch_band_left_020 *"
+      ],
+      "cameras": 0,
+      "animations": [],
+      "bbox": {
+        "min": [
+          -0.505,
+          -2.291,
+          -3.5
+        ],
+        "max": [
+          0.51,
+          2.468,
+          0.511
+        ],
+        "size": [
+          1.015,
+          4.759,
+          4.011
+        ]
+      },
+      "unnamed": 0,
+      "groups": {
+        "Cube_012": 1,
+        "Cube_014": 4,
+        "Cube_017": 1,
+        "Object017_012": 1,
+        "watch_band_left_010": 1,
+        "watch_band_left_011": 2,
+        "watch_band_left_012": 1,
+        "watch_band_left_019": 1,
+        "watch_band_left_020": 1
+      },
+      "largest": [
+        {
+          "name": "watch_band_left_011/Mesh1161_web",
+          "size": [
+            0.88,
+            4.13,
+            3.84
+          ],
+          "centre": [
+            0,
+            -0.23,
+            -1.41
+          ],
+          "tris": 44268
+        },
+        {
+          "name": "LegacyStrap_SteelBracelet/Object017_012",
+          "size": [
+            0.56,
+            2.6,
+            2.62
+          ],
+          "centre": [
+            0,
+            1.17,
+            -1.57
+          ],
+          "tris": 6240
+        },
+        {
+          "name": "LegacyStrap_SteelBracelet/watch_band_left_010",
+          "size": [
+            0.88,
+            1.51,
+            2.53
+          ],
+          "centre": [
+            0,
+            -1.54,
+            -1.16
+          ],
+          "tris": 6464
+        },
+        {
+          "name": "watch_band_left_011/Mesh1161_web_1",
+          "size": [
+            0.88,
+            2.06,
+            1.04
+          ],
+          "centre": [
+            0,
+            0.02,
+            -0.08
+          ],
+          "tris": 629
+        },
+        {
+          "name": "LegacyStrap_SteelBracelet/watch_band_left_019",
+          "size": [
+            0.9,
+            1.92,
+            1.5
+          ],
+          "centre": [
+            -0.01,
+            -0.61,
+            -1.91
+          ],
+          "tris": 5758
+        },
+        {
+          "name": "Cube_014/Cube057_web",
+          "size": [
+            0.9,
+            1.58,
+            0.93
+          ],
+          "centre": [
+            0,
+            0.16,
+            -3.03
+          ],
+          "tris": 2996
+        },
+        {
+          "name": "LegacyStrap_SteelBracelet/watch_band_left_012",
+          "size": [
+            0.81,
+            0.99,
+            1.54
+          ],
+          "centre": [
+            0,
+            0.04,
+            -2.25
+          ],
+          "tris": 6624
+        },
+        {
+          "name": "LegacyStrap_SteelBracelet/Cube_017",
+          "size": [
+            1.02,
+            0.34,
+            0.2
+          ],
+          "centre": [
+            0,
+            0.15,
+            -2.95
+          ],
+          "tris": 700
+        },
+        {
+          "name": "LegacyStrap_SteelBracelet/Cube_012",
+          "size": [
+            0.95,
+            0.51,
+            0.7
+          ],
+          "centre": [
+            0,
+            -1.31,
+            -2.52
+          ],
+          "tris": 1108
+        },
+        {
+          "name": "Cube_014/Cube057_web_3",
+          "size": [
+            0.86,
+            0.58,
+            0.34
+          ],
+          "centre": [
+            0,
+            0.13,
+            -2.96
+          ],
+          "tris": 604
+        },
+        {
+          "name": "LegacyStrap_SteelBracelet/watch_band_left_020",
+          "size": [
+            0.81,
+            0.26,
+            0.26
+          ],
+          "centre": [
+            0,
+            -1.49,
+            -2.28
+          ],
+          "tris": 1500
+        },
+        {
+          "name": "Cube_014/Cube057_web_1",
+          "size": [
+            0.66,
+            0.11,
+            0.08
+          ],
+          "centre": [
+            0,
+            0.63,
+            -3.08
+          ],
+          "tris": 1300
+        }
+      ],
+      "outliers": [
+        {
+          "name": "watch_band_left_011/Mesh1161_web",
+          "size": [
+            0.88,
+            4.13,
+            3.84
+          ],
+          "centre": [
+            0,
+            -0.23,
+            -1.41
+          ],
+          "tris": 44268
+        },
+        {
+          "name": "LegacyStrap_SteelBracelet/Object017_012",
+          "size": [
+            0.56,
+            2.6,
+            2.62
+          ],
+          "centre": [
+            0,
+            1.17,
+            -1.57
+          ],
+          "tris": 6240
+        },
+        {
+          "name": "LegacyStrap_SteelBracelet/watch_band_left_010",
+          "size": [
+            0.88,
+            1.51,
+            2.53
+          ],
+          "centre": [
+            0,
+            -1.54,
+            -1.16
+          ],
+          "tris": 6464
+        },
+        {
+          "name": "LegacyStrap_SteelBracelet/watch_band_left_019",
+          "size": [
+            0.9,
+            1.92,
+            1.5
+          ],
+          "centre": [
+            -0.01,
+            -0.61,
+            -1.91
+          ],
+          "tris": 5758
+        },
+        {
+          "name": "Cube_014/Cube057_web",
+          "size": [
+            0.9,
+            1.58,
+            0.93
+          ],
+          "centre": [
+            0,
+            0.16,
+            -3.03
+          ],
+          "tris": 2996
+        },
+        {
+          "name": "LegacyStrap_SteelBracelet/watch_band_left_012",
+          "size": [
+            0.81,
+            0.99,
+            1.54
+          ],
+          "centre": [
+            0,
+            0.04,
+            -2.25
+          ],
+          "tris": 6624
+        },
+        {
+          "name": "LegacyStrap_SteelBracelet/Cube_017",
+          "size": [
+            1.02,
+            0.34,
+            0.2
+          ],
+          "centre": [
+            0,
+            0.15,
+            -2.95
+          ],
+          "tris": 700
+        },
+        {
+          "name": "LegacyStrap_SteelBracelet/Cube_012",
+          "size": [
+            0.95,
+            0.51,
+            0.7
+          ],
+          "centre": [
+            0,
+            -1.31,
+            -2.52
+          ],
+          "tris": 1108
+        },
+        {
+          "name": "Cube_014/Cube057_web_3",
+          "size": [
+            0.86,
+            0.58,
+            0.34
+          ],
+          "centre": [
+            0,
+            0.13,
+            -2.96
+          ],
+          "tris": 604
+        },
+        {
+          "name": "LegacyStrap_SteelBracelet/watch_band_left_020",
+          "size": [
+            0.81,
+            0.26,
+            0.26
+          ],
+          "centre": [
+            0,
+            -1.49,
+            -2.28
+          ],
+          "tris": 1500
+        },
+        {
+          "name": "Cube_014/Cube057_web_1",
+          "size": [
+            0.66,
+            0.11,
+            0.08
+          ],
+          "centre": [
+            0,
+            0.63,
+            -3.08
+          ],
+          "tris": 1300
+        },
+        {
+          "name": "Cube_014/Cube057_web_2",
+          "size": [
+            0.45,
+            0.16,
+            0.1
+          ],
+          "centre": [
+            0,
+            0.27,
+            -3.12
+          ],
+          "tris": 162
+        }
+      ],
+      "hands": [],
+      "bannedAnimationNames": []
+    }
+  },
+  "rendered": true,
+  "drawCalls": 258,
+  "renderTriangles": 718702,
+  "programs": 14,
+  "done": true
+}

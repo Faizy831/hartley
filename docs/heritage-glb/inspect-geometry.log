@@ -1,0 +1,215 @@
+Info: Read library: '/x/03. 3D Assets/4. Details/colorbond/colorbond.blend', 'X:\03. 3D Assets\4. Details\colorbond\colorbond.blend', parent '<direct>'
+Warning: Unable to open '/x/03. 3D Assets/4. Details/colorbond/colorbond.blend': No such file or directory
+Info: Cannot find lib '/x/03. 3D Assets/4. Details/colorbond/colorbond.blend'
+Info: LIB: NodeTree: 'Poliigon_Adjustments.001' missing from 'X:/03. 3D Assets/4. Details/colorbond/colorbond.blend', parent '<direct>'
+Warning: 1 libraries and 1 linked data-blocks are missing (including 0 ObjectData and 0 Proxies), please check the Info and Outliner editors for details
+## LEGACY-STYLE GEOMETRY DETAIL (read-only)
+unit_system METRIC scale_length 1.0 length_unit MILLIMETERS
+## ROOT 1. Black Base with  black face type=EMPTY loc=[0.0, -2.115, -21.168] rot=[1.396, -0.0, 0.0] scale=[1.0, 1.0, 1.0] parent=None
+  EMPTY 1. Black Base with  black face loc=[0.0, -2.115, -21.168] rot=[1.396, -0.0, 0.0]
+  MESH 1. Base Mesh verts=7209 faces=7964 quads=5695 ngons=5 eval_tris=14080 uv=['map1', 'second hand', 'UVMap'] custom_normals=True mods=[] dims=[1.369, 1.527, 0.257] world_loc=[0.006, -2.096, -21.173] scale=[1.0, 1.0, 1.0] parent=1. Black Base with  black face parent_type=OBJECT
+       slots_faces={'0:x metal shiny black_0.005 bevel': 3609, '1:x MetalStainlessSteelRadial002_2K_TEXT': 792, '2:x MetalStainlessSteelBrushed002_2K': 130, '3:x metal shiny black_0.003 bevel': 1015, '4:x WatchFace_black and white': 379, '5:x metal shiny silver_0.003 bevel': 65, '6:x black mild reflective': 252, '7:x Glass: Clear IOR1.008': 128, '8:MetalStainlessSteelBrushed002_4k_black': 1156, '9:metalstainlesssteel shiny_silver': 312, '10:x Glass: Clear IOR1.1': 126}
+  MESH 1. hour hand verts=45 faces=30 quads=20 ngons=2 eval_tris=54 uv=['UVMap'] custom_normals=False mods=[] dims=[0.054, 0.44, 0.005] world_loc=[-0.0, -2.085, -21.174] scale=[1.0, 1.0, 1.0] parent=1. Black Base with  black face parent_type=OBJECT
+       slots_faces={'0:metalstainlesssteel shiny_silver': 30}
+  MESH 1. Minute hand verts=45 faces=30 quads=20 ngons=2 eval_tris=54 uv=['UVMap'] custom_normals=False mods=[] dims=[0.056, 0.567, 0.006] world_loc=[-0.0, -2.093, -21.172] scale=[1.0, 1.0, 1.0] parent=1. Black Base with  black face parent_type=OBJECT
+       slots_faces={'0:metalstainlesssteel shiny_silver': 30}
+  EMPTY 1. second hand parent loc=[0.018, -2.532, 1.619] rot=[0.0, -0.0, 1.45]
+  MESH 1. second hand verts=70 faces=37 quads=36 ngons=1 eval_tris=276 uv=['UVMap'] custom_normals=False mods=['SOLIDIFY'] dims=[0.04, 0.619, 0.01] world_loc=[0.0, -2.1, -21.171] scale=[1.0, 1.0, 1.0] parent=1. second hand parent parent_type=OBJECT
+       slots_faces={'0:x metal shiny silver_0.005 bevel': 37}
+  ROOT_TOTAL_TRIS 1. Black Base with  black face = 14464
+## ROOT 2. rose gold base with black face type=EMPTY loc=[0.0, -2.115, 2.296] rot=[1.396, -0.0, 0.0] scale=[1.0, 1.0, 1.0] parent=None
+  EMPTY 2. rose gold base with black face loc=[0.0, -2.115, 2.296] rot=[1.396, -0.0, 0.0]
+  MESH 1. Base Mesh.002 verts=7209 faces=7964 quads=5695 ngons=5 eval_tris=14080 uv=['map1', 'second hand', 'UVMap'] custom_normals=True mods=[] dims=[1.369, 1.527, 0.257] world_loc=[0.006, -2.096, 2.291] scale=[1.0, 1.0, 1.0] parent=2. rose gold base with black face parent_type=OBJECT
+       slots_faces={'0:x metal shiny rose gold_0.005 bevel': 3674, '1:x MetalStainlessSteelRadial002_2K_TEXT': 792, '2:x MetalStainlessSteelBrushed002_2K.001': 1156, '3:x metal shiny rose gold 0.003 bevel': 1327, '4:x WatchFace_black and white': 379, '6:x black mild reflective': 252, '7:x Glass: Clear IOR1.008': 128, '8:x MetalStainlessSteelBrushed002_2K': 130, '9:x Glass: Clear IOR1.1': 126}
+  MESH 1. hour hand.002 verts=45 faces=30 quads=20 ngons=2 eval_tris=54 uv=['UVMap'] custom_normals=False mods=[] dims=[0.054, 0.44, 0.005] world_loc=[-0.0, -2.085, 2.29] scale=[1.0, 1.0, 1.0] parent=2. rose gold base with black face parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_rosegold.001': 30}
+  MESH 1. Minute hand.002 verts=45 faces=30 quads=20 ngons=2 eval_tris=54 uv=['UVMap'] custom_normals=False mods=[] dims=[0.056, 0.567, 0.006] world_loc=[-0.0, -2.093, 2.292] scale=[1.0, 1.0, 1.0] parent=2. rose gold base with black face parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_rosegold.001': 30}
+  EMPTY 1. second hand parent.002 loc=[0.018, -2.532, 1.619] rot=[0.0, -0.0, 1.45]
+  MESH 1. second hand.002 verts=70 faces=37 quads=36 ngons=1 eval_tris=276 uv=['UVMap'] custom_normals=False mods=['SOLIDIFY'] dims=[0.04, 0.619, 0.01] world_loc=[0.0, -2.1, 2.293] scale=[1.0, 1.0, 1.0] parent=1. second hand parent.002 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_rosegold.001': 37}
+  ROOT_TOTAL_TRIS 2. rose gold base with black face = 14464
+## ROOT 3. gold base with black face type=EMPTY loc=[0.0, -2.115, -21.168] rot=[1.396, -0.0, 0.0] scale=[1.0, 1.0, 1.0] parent=None
+  EMPTY 3. gold base with black face loc=[0.0, -2.115, -21.168] rot=[1.396, -0.0, 0.0]
+  MESH 1. Base Mesh.003 verts=7209 faces=7964 quads=5695 ngons=5 eval_tris=14080 uv=['map1', 'second hand', 'UVMap'] custom_normals=True mods=[] dims=[1.369, 1.527, 0.257] world_loc=[0.006, -2.096, -21.173] scale=[1.0, 1.0, 1.0] parent=3. gold base with black face parent_type=OBJECT
+       slots_faces={'0:x metal shiny gold_0.005 bevel.001': 3674, '1:x MetalStainlessSteelRadial002_2K_TEXT': 792, '2:MetalStainlessSteelBrushed002_4k_gold': 1156, '3:x metal shiny gold_0.003 bevel': 1327, '4:x WatchFace_black and white': 379, '6:x black mild reflective': 252, '7:x Glass: Clear IOR1.008': 128, '8:x MetalStainlessSteelBrushed002_2K': 130, '9:x Glass: Clear IOR1.1': 126}
+  MESH 1. hour hand.003 verts=45 faces=30 quads=20 ngons=2 eval_tris=54 uv=['UVMap'] custom_normals=False mods=[] dims=[0.054, 0.44, 0.005] world_loc=[-0.0, -2.085, -21.174] scale=[1.0, 1.0, 1.0] parent=3. gold base with black face parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_gold.001': 30}
+  MESH 1. Minute hand.003 verts=45 faces=30 quads=20 ngons=2 eval_tris=54 uv=['UVMap'] custom_normals=False mods=[] dims=[0.056, 0.567, 0.006] world_loc=[-0.0, -2.093, -21.172] scale=[1.0, 1.0, 1.0] parent=3. gold base with black face parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_gold.001': 30}
+  EMPTY 1. second hand parent.003 loc=[0.018, -2.532, 1.619] rot=[0.0, -0.0, 1.45]
+  MESH 1. second hand.003 verts=70 faces=37 quads=36 ngons=1 eval_tris=276 uv=['UVMap'] custom_normals=False mods=['SOLIDIFY'] dims=[0.04, 0.619, 0.01] world_loc=[0.0, -2.1, -21.171] scale=[1.0, 1.0, 1.0] parent=1. second hand parent.003 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_gold.001': 37}
+  ROOT_TOTAL_TRIS 3. gold base with black face = 14464
+## ROOT 4. Silver Base with white face type=EMPTY loc=[0.0, -2.115, -21.168] rot=[1.396, -0.0, 0.0] scale=[1.0, 1.0, 1.0] parent=None
+  EMPTY 4. Silver Base with white face loc=[0.0, -2.115, -21.168] rot=[1.396, -0.0, 0.0]
+  MESH 1. Base Mesh.001 verts=7209 faces=7964 quads=5695 ngons=5 eval_tris=14080 uv=['map1', 'second hand', 'UVMap'] custom_normals=True mods=[] dims=[1.369, 1.527, 0.257] world_loc=[0.006, -2.096, -21.173] scale=[1.0, 1.0, 1.0] parent=4. Silver Base with white face parent_type=OBJECT
+       slots_faces={'0:x metal shiny silver_0.005 bevel': 3674, '1:x MetalStainlessSteelRadial002_2K_TEXT': 792, '2:x MetalStainlessSteelBrushed002_2K': 1286, '3:x metal shiny silver_0.003 bevel': 1327, '4:x WatchFace_white base and black': 379, '6:x white mild reflective.001': 252, '7:x Glass: Clear IOR1.008': 128, '8:x Glass: Clear IOR1.1': 126}
+  MESH 1. hour hand.001 verts=45 faces=30 quads=20 ngons=2 eval_tris=54 uv=['UVMap'] custom_normals=False mods=[] dims=[0.054, 0.44, 0.005] world_loc=[-0.0, -2.085, -21.174] scale=[1.0, 1.0, 1.0] parent=4. Silver Base with white face parent_type=OBJECT
+       slots_faces={'0:metalstainlesssteel shiny_silver': 30}
+  MESH 1. Minute hand.001 verts=45 faces=30 quads=20 ngons=2 eval_tris=54 uv=['UVMap'] custom_normals=False mods=[] dims=[0.056, 0.567, 0.006] world_loc=[-0.0, -2.093, -21.172] scale=[1.0, 1.0, 1.0] parent=4. Silver Base with white face parent_type=OBJECT
+       slots_faces={'0:metalstainlesssteel shiny_silver': 30}
+  EMPTY 1. second hand parent.001 loc=[0.018, -2.532, 1.619] rot=[0.0, -0.0, 1.45]
+  MESH 1. second hand.001 verts=70 faces=37 quads=36 ngons=1 eval_tris=276 uv=['UVMap'] custom_normals=False mods=['SOLIDIFY'] dims=[0.04, 0.619, 0.01] world_loc=[0.0, -2.1, -21.171] scale=[1.0, 1.0, 1.0] parent=1. second hand parent.001 parent_type=OBJECT
+       slots_faces={'0:x metal shiny silver_0.005 bevel': 37}
+  ROOT_TOTAL_TRIS 4. Silver Base with white face = 14464
+## ROOT 5. rose gold with white face.001 type=EMPTY loc=[0.0, -2.115, -21.168] rot=[1.396, -0.0, 0.0] scale=[1.0, 1.0, 1.0] parent=None
+  EMPTY 5. rose gold with white face.001 loc=[0.0, -2.115, -21.168] rot=[1.396, -0.0, 0.0]
+  MESH 1. Base Mesh.004 verts=7209 faces=7964 quads=5695 ngons=5 eval_tris=14080 uv=['map1', 'second hand', 'UVMap'] custom_normals=True mods=[] dims=[1.369, 1.527, 0.257] world_loc=[0.006, -2.096, -21.173] scale=[1.0, 1.0, 1.0] parent=5. rose gold with white face.001 parent_type=OBJECT
+       slots_faces={'0:x metal shiny rose gold_0.005 bevel': 3674, '1:x MetalStainlessSteelRadial002_2K_TEXT': 792, '2:x MetalStainlessSteelBrushed002_2K': 130, '3:x metal shiny rose gold 0.003 bevel': 1327, '4:x WatchFace_white base and black': 379, '6:x white mild reflective.001': 252, '7:x Glass: Clear IOR1.008': 128, '8:MetalStainlessSteelBrushed002_4k_rosegold.001': 1156, '9:x Glass: Clear IOR1.1': 126}
+  MESH 1. hour hand.004 verts=45 faces=30 quads=20 ngons=2 eval_tris=54 uv=['UVMap'] custom_normals=False mods=[] dims=[0.054, 0.44, 0.005] world_loc=[-0.0, -2.085, -21.174] scale=[1.0, 1.0, 1.0] parent=5. rose gold with white face.001 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_rosegold.001': 30}
+  MESH 1. Minute hand.004 verts=45 faces=30 quads=20 ngons=2 eval_tris=54 uv=['UVMap'] custom_normals=False mods=[] dims=[0.056, 0.567, 0.006] world_loc=[-0.0, -2.093, -21.172] scale=[1.0, 1.0, 1.0] parent=5. rose gold with white face.001 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_rosegold.001': 30}
+  EMPTY 1. second hand parent.004 loc=[0.018, -2.532, 1.619] rot=[0.0, -0.0, 1.45]
+  MESH 1. second hand.004 verts=70 faces=37 quads=36 ngons=1 eval_tris=276 uv=['UVMap'] custom_normals=False mods=['SOLIDIFY'] dims=[0.04, 0.619, 0.01] world_loc=[0.0, -2.1, -21.171] scale=[1.0, 1.0, 1.0] parent=1. second hand parent.004 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_rosegold.001': 37}
+  ROOT_TOTAL_TRIS 5. rose gold with white face.001 = 14464
+## ROOT leather black with black type=EMPTY loc=[0.015, -1.367, 2.079] rot=[-1.138, -3.142, 0.0] scale=[1.0, 1.0, 1.0] parent=None
+  EMPTY leather black with black loc=[0.015, -1.367, 2.079] rot=[-1.138, -3.142, 0.0]
+  CURVE BézierCurve_lower.026 loc=[-16.472, -1.098, 0.604] rot=[-4.712, -1.492, 1.571]
+  CURVE BézierCurve_upper.026 loc=[-16.472, 0.199, 0.243] rot=[1.571, 1.492, -1.571]
+  MESH leather strap.053 verts=1296 faces=1200 quads=1071 ngons=94 eval_tris=17792 uv=['UVMap', 'HARTLEY text', 'italian leather'] custom_normals=False mods=['BEVEL', 'SUBSURF', 'CURVE'] dims=[0.727, 2.018, 2.513] world_loc=[0.04, -2.75, 3.295] scale=[1.981, 1.981, 1.981] parent=leather black with black parent_type=OBJECT
+       slots_faces={'0:Leather_texture_black.002': 864, '2:Metal_hartley_leatherbuckle_silver.003': 226, '3:felt_basic straps.003': 110}
+  MESH leather strap.054 verts=4424 faces=4372 quads=4291 ngons=29 eval_tris=53144 uv=['UVMap', 'HARTLEY text', 'italian leather'] custom_normals=False mods=['BEVEL', 'SUBSURF', 'CURVE'] dims=[0.764, 1.713, 1.19] world_loc=[0.0, -1.77, 1.487] scale=[1.981, 1.981, 1.981] parent=leather black with black parent_type=OBJECT
+       slots_faces={'0:Leather_texture_black.002': 3284, '1:FabricRope001_1K_black.004': 832, '2:Metal_hartley_leatherbuckle_silver.003': 226, '3:felt_basic straps.003': 30}
+  MESH metal lock.027 verts=8852 faces=8848 quads=8848 ngons=0 eval_tris=17696 uv=['UVMap', 'hartley text'] custom_normals=False mods=[] dims=[0.786, 0.562, 0.19] world_loc=[0.005, -0.347, 1.817] scale=[1.981, 1.981, 1.981] parent=leather black with black parent_type=OBJECT
+       slots_faces={'0:black metal with hartley.003': 8848}
+  ROOT_TOTAL_TRIS leather black with black = 88632
+## ROOT leather white with silver type=EMPTY loc=[0.0, -1.367, -23.805] rot=[-1.138, -3.142, 0.0] scale=[1.0, 1.0, 1.0] parent=None
+  EMPTY leather white with silver loc=[0.0, -1.367, -23.805] rot=[-1.138, -3.142, 0.0]
+  CURVE BézierCurve_lower.028 loc=[-38.034, -1.098, 0.604] rot=[-4.712, -1.492, 1.571]
+  CURVE BézierCurve_upper.028 loc=[-38.034, 0.199, 0.243] rot=[1.571, 1.492, -1.571]
+  MESH leather strap.057 verts=1296 faces=1200 quads=1071 ngons=94 eval_tris=17792 uv=['UVMap', 'HARTLEY text', 'italian leather'] custom_normals=False mods=['BEVEL', 'SUBSURF', 'CURVE'] dims=[0.727, 2.018, 2.513] world_loc=[0.025, -2.75, -22.589] scale=[1.981, 1.981, 1.981] parent=leather white with silver parent_type=OBJECT
+       slots_faces={'0:Leather_texture_white.002': 864, '1:Metal_hartley_leatherbuckle_silver.003': 226, '2:felt_basic straps.003': 110}
+  MESH leather strap.058 verts=4424 faces=4372 quads=4291 ngons=29 eval_tris=53144 uv=['UVMap', 'HARTLEY text', 'italian leather'] custom_normals=False mods=['BEVEL', 'SUBSURF', 'CURVE'] dims=[0.764, 1.713, 1.19] world_loc=[-0.015, -1.77, -24.396] scale=[1.981, 1.981, 1.981] parent=leather white with silver parent_type=OBJECT
+       slots_faces={'0:Leather_texture_white.002': 3284, '1:FabricRope001_1K_white.002': 832, '2:Metal_hartley_leatherbuckle_silver.003': 226, '3:felt_basic straps.003': 30}
+  MESH metal lock.029 verts=8852 faces=8848 quads=8848 ngons=0 eval_tris=17696 uv=['UVMap', 'hartley text'] custom_normals=False mods=[] dims=[0.786, 0.562, 0.19] world_loc=[-0.009, -0.347, -24.066] scale=[1.981, 1.981, 1.981] parent=leather white with silver parent_type=OBJECT
+       slots_faces={'0:silver metal with hartley.004': 8848}
+  ROOT_TOTAL_TRIS leather white with silver = 88632
+## ROOT leather pink with rose gold type=EMPTY loc=[0.015, -1.368, -3.96] rot=[-1.134, 3.142, -0.0] scale=[1.0, 1.0, 1.0] parent=None
+  EMPTY leather pink with rose gold loc=[0.015, -1.368, -3.96] rot=[-1.134, 3.142, -0.0]
+  CURVE BézierCurve_lower.032 loc=[-22.071, -1.098, 0.604] rot=[-4.712, -1.492, 1.571]
+  CURVE BézierCurve_upper.032 loc=[-22.071, 0.199, 0.243] rot=[1.571, 1.492, -1.571]
+  MESH leather strap.065 verts=1296 faces=1200 quads=1071 ngons=94 eval_tris=17792 uv=['UVMap', 'HARTLEY text', 'italian leather'] custom_normals=False mods=['BEVEL', 'SUBSURF', 'CURVE'] dims=[0.727, 2.018, 2.513] world_loc=[0.041, -2.747, -2.74] scale=[1.981, 1.981, 1.981] parent=leather pink with rose gold parent_type=OBJECT
+       slots_faces={'0:Leather_texture_pink.002': 864, '2:Metal_hartley_leatherbuckle_silver.004': 226, '3:felt_basic straps.004': 110}
+  MESH leather strap.066 verts=4424 faces=4372 quads=4291 ngons=29 eval_tris=53144 uv=['UVMap', 'HARTLEY text', 'italian leather'] custom_normals=False mods=['BEVEL', 'SUBSURF', 'CURVE'] dims=[0.764, 1.713, 1.19] world_loc=[0.001, -1.773, -4.55] scale=[1.981, 1.981, 1.981] parent=leather pink with rose gold parent_type=OBJECT
+       slots_faces={'0:Leather_texture_pink.002': 3284, '1:FabricRope001_1K_pink.002': 832, '2:Metal_hartley_leatherbuckle_silver.004': 226, '3:felt_basic straps.004': 30}
+  MESH metal lock.033 verts=8852 faces=8848 quads=8848 ngons=0 eval_tris=17696 uv=['UVMap', 'hartley text'] custom_normals=False mods=[] dims=[0.786, 0.562, 0.19] world_loc=[0.006, -0.349, -4.225] scale=[1.981, 1.981, 1.981] parent=leather pink with rose gold parent_type=OBJECT
+       slots_faces={'0:rose gold metal with hartley_new.001': 8848}
+  ROOT_TOTAL_TRIS leather pink with rose gold = 88632
+## ROOT leather beige with rose gold type=EMPTY loc=[0.0, -1.367, -23.805] rot=[-1.138, -3.142, 0.0] scale=[1.0, 1.0, 1.0] parent=None
+  EMPTY leather beige with rose gold loc=[0.0, -1.367, -23.805] rot=[-1.138, -3.142, 0.0]
+  CURVE BézierCurve_lower.031 loc=[-17.686, -1.098, 0.604] rot=[-4.712, -1.492, 1.571]
+  CURVE BézierCurve_upper.031 loc=[-17.686, 0.199, 0.243] rot=[1.571, 1.492, -1.571]
+  MESH leather strap.063 verts=1296 faces=1200 quads=1071 ngons=94 eval_tris=17792 uv=['UVMap', 'HARTLEY text', 'italian leather'] custom_normals=False mods=['BEVEL', 'SUBSURF', 'CURVE'] dims=[0.727, 2.018, 2.513] world_loc=[0.025, -2.75, -22.589] scale=[1.981, 1.981, 1.981] parent=leather beige with rose gold parent_type=OBJECT
+       slots_faces={'0:Leather_texture_beige\\.002': 864, '2:Metal_hartley_leatherbuckle_silver.003': 226, '3:felt_basic straps.003': 110}
+  MESH leather strap.064 verts=4424 faces=4372 quads=4291 ngons=29 eval_tris=53144 uv=['UVMap', 'HARTLEY text', 'italian leather'] custom_normals=False mods=['BEVEL', 'SUBSURF', 'CURVE'] dims=[0.764, 1.713, 1.19] world_loc=[-0.014, -1.77, -24.396] scale=[1.981, 1.981, 1.981] parent=leather beige with rose gold parent_type=OBJECT
+       slots_faces={'0:Leather_texture_beige\\.002': 3284, '1:FabricRope001_1K_biege.002': 832, '2:Metal_hartley_leatherbuckle_silver.003': 226, '3:felt_basic straps.003': 30}
+  MESH metal lock.032 verts=8852 faces=8848 quads=8848 ngons=0 eval_tris=17696 uv=['UVMap', 'hartley text'] custom_normals=False mods=[] dims=[0.786, 0.562, 0.19] world_loc=[-0.009, -0.347, -24.066] scale=[1.981, 1.981, 1.981] parent=leather beige with rose gold parent_type=OBJECT
+       slots_faces={'0:rose gold metal with hartley_new': 8848}
+  ROOT_TOTAL_TRIS leather beige with rose gold = 88632
+## ROOT 1. black mesh band parent.003 type=EMPTY loc=[0.005, -1.052, -3.362] rot=[1.396, -0.0, 0.0] scale=[1.0, 1.0, 1.0] parent=None
+  EMPTY 1. black mesh band parent.003 loc=[0.005, -1.052, -3.362] rot=[1.396, -0.0, 0.0]
+  MESH _group3group2__polySurface2460.011 verts=3510 faces=3432 quads=3432 ngons=0 eval_tris=6864 uv=['map1'] custom_normals=True mods=[] dims=[0.681, 0.12, 0.428] world_loc=[0.01, 0.386, -3.767] scale=[1.119, 1.0, 1.0] parent=1. black mesh band parent.003 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4k_black.002': 3432}
+  MESH _group3group2_polySurface902.011 verts=39560 faces=39488 quads=39488 ngons=0 eval_tris=78976 uv=['map1', 'text'] custom_normals=True mods=[] dims=[0.745, 0.351, 0.39] world_loc=[0.006, 0.046, -4.565] scale=[1.119, 1.0, 1.0] parent=1. black mesh band parent.003 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4k_black_hartley_mesh..002': 39488}
+  MESH _pCylinder006.012 verts=771318 faces=780834 quads=742762 ngons=0 eval_tris=1523596 uv=['map1'] custom_normals=True mods=[] dims=[0.686, 2.341, 2.608] world_loc=[0.006, -0.482, -2.673] scale=[1.119, 1.0, 1.0] parent=1. black mesh band parent.003 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_black.003': 780834}
+  MESH _ZBrush_defualt_group003.011 verts=3 faces=1 quads=0 ngons=0 eval_tris=1 uv=[] custom_normals=True mods=[] dims=[0.016, 0.0, 0.019] world_loc=[0.258, -1.826, -3.118] scale=[1.119, 1.0, 1.0] parent=1. black mesh band parent.003 parent_type=OBJECT
+       slots_faces={'0:sfsfs.006': 1}
+  MESH Object008.011 verts=15330 faces=15328 quads=15328 ngons=0 eval_tris=30656 uv=['map1'] custom_normals=True mods=[] dims=[0.639, 0.055, 0.099] world_loc=[0.006, -2.016, -4.167] scale=[1.119, 1.0, 1.0] parent=1. black mesh band parent.003 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_black.003': 15328}
+  MESH Object009.011 verts=6242 faces=6240 quads=6240 ngons=0 eval_tris=12480 uv=['map1'] custom_normals=True mods=[] dims=[0.037, 0.035, 0.034] world_loc=[-0.267, -2.027, -4.078] scale=[1.119, 1.0, 1.0] parent=1. black mesh band parent.003 parent_type=OBJECT
+       slots_faces={'0:metalstainlesssteel shiny_silver.008': 6240}
+  MESH polySurface007.011 verts=7117 faces=7059 quads=7059 ngons=0 eval_tris=14118 uv=['map1'] custom_normals=True mods=[] dims=[0.652, 0.1, 0.1] world_loc=[0.167, -1.822, -2.709] scale=[1.0, 1.0, 1.0] parent=1. black mesh band parent.003 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_black.003': 6191, '1:metalstainlesssteel shiny_silver.012': 868}
+  MESH polySurface008.011 verts=21572 faces=21568 quads=21568 ngons=0 eval_tris=43136 uv=['map1'] custom_normals=True mods=[] dims=[0.639, 0.09, 0.147] world_loc=[0.085, -1.764, -2.692] scale=[1.119, 1.0, 1.0] parent=1. black mesh band parent.003 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_black.003': 15328, '1:metalstainlesssteel shiny_silver.008': 6240}
+  MESH polySurface009.011 verts=7121 faces=7062 quads=7062 ngons=0 eval_tris=14124 uv=['map1'] custom_normals=True mods=[] dims=[0.652, 0.1, 0.1] world_loc=[-0.155, -2.068, -4.101] scale=[1.0, 1.0, 1.0] parent=1. black mesh band parent.003 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_black.003': 6194, '1:metalstainlesssteel shiny_silver.012': 868}
+  ROOT_TOTAL_TRIS 1. black mesh band parent.003 = 1723951
+## ROOT 1. mesh band parent_silver.001 type=EMPTY loc=[0.0, -1.052, -23.065] rot=[1.396, -0.0, 0.0] scale=[1.0, 1.0, 1.0] parent=None
+  EMPTY 1. mesh band parent_silver.001 loc=[0.0, -1.052, -23.065] rot=[1.396, -0.0, 0.0]
+  MESH _group3group2__polySurface2460.013 verts=3510 faces=3432 quads=3432 ngons=0 eval_tris=6864 uv=['map1'] custom_normals=True mods=[] dims=[0.681, 0.12, 0.428] world_loc=[0.004, 0.386, -23.471] scale=[1.119, 1.0, 1.0] parent=1. mesh band parent_silver.001 parent_type=OBJECT
+       slots_faces={'0:x MetalStainlessSteelBrushed002_2K.002': 3432}
+  MESH _group3group2_polySurface902.013 verts=39560 faces=39488 quads=39488 ngons=0 eval_tris=78976 uv=['map1', 'text'] custom_normals=True mods=[] dims=[0.745, 0.351, 0.39] world_loc=[0.001, 0.046, -24.269] scale=[1.119, 1.0, 1.0] parent=1. mesh band parent_silver.001 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4k_silver_hartley_mesh.002': 39488}
+  MESH _pCylinder006.014 verts=771318 faces=780834 quads=742762 ngons=0 eval_tris=1523596 uv=['map1'] custom_normals=True mods=[] dims=[0.686, 2.341, 2.608] world_loc=[0.0, -0.482, -22.377] scale=[1.119, 1.0, 1.0] parent=1. mesh band parent_silver.001 parent_type=OBJECT
+       slots_faces={'0:metalstainlesssteel shiny_silver.010': 780834}
+  MESH _ZBrush_defualt_group003.013 verts=3 faces=1 quads=0 ngons=0 eval_tris=1 uv=[] custom_normals=True mods=[] dims=[0.016, 0.0, 0.019] world_loc=[0.252, -1.826, -22.822] scale=[1.119, 1.0, 1.0] parent=1. mesh band parent_silver.001 parent_type=OBJECT
+       slots_faces={'0:sfsfs.008': 1}
+  MESH Object008.013 verts=15330 faces=15328 quads=15328 ngons=0 eval_tris=30656 uv=['map1'] custom_normals=True mods=[] dims=[0.639, 0.055, 0.099] world_loc=[0.0, -2.016, -23.87] scale=[1.119, 1.0, 1.0] parent=1. mesh band parent_silver.001 parent_type=OBJECT
+       slots_faces={'0:metalstainlesssteel shiny_silver.010': 15328}
+  MESH Object009.013 verts=6242 faces=6240 quads=6240 ngons=0 eval_tris=12480 uv=['map1'] custom_normals=True mods=[] dims=[0.037, 0.035, 0.034] world_loc=[-0.273, -2.027, -23.781] scale=[1.119, 1.0, 1.0] parent=1. mesh band parent_silver.001 parent_type=OBJECT
+       slots_faces={'0:metalstainlesssteel shiny_silver.010': 6240}
+  MESH polySurface007.013 verts=7117 faces=7059 quads=7059 ngons=0 eval_tris=14118 uv=['map1'] custom_normals=True mods=[] dims=[0.652, 0.1, 0.1] world_loc=[0.162, -1.822, -22.412] scale=[1.0, 1.0, 1.0] parent=1. mesh band parent_silver.001 parent_type=OBJECT
+       slots_faces={'0:metalstainlesssteel shiny_silver.010': 6191, '1:metalstainlesssteel shiny_silver.012': 868}
+  MESH polySurface008.013 verts=21572 faces=21568 quads=21568 ngons=0 eval_tris=43136 uv=['map1'] custom_normals=True mods=[] dims=[0.639, 0.09, 0.147] world_loc=[0.079, -1.764, -22.396] scale=[1.119, 1.0, 1.0] parent=1. mesh band parent_silver.001 parent_type=OBJECT
+       slots_faces={'0:metalstainlesssteel shiny_silver.010': 15328, '1:metalstainlesssteel shiny_silver.010': 6240}
+  MESH polySurface009.013 verts=7121 faces=7062 quads=7062 ngons=0 eval_tris=14124 uv=['map1'] custom_normals=True mods=[] dims=[0.652, 0.1, 0.1] world_loc=[-0.16, -2.068, -23.805] scale=[1.0, 1.0, 1.0] parent=1. mesh band parent_silver.001 parent_type=OBJECT
+       slots_faces={'0:metalstainlesssteel shiny_silver.010': 6194, '1:metalstainlesssteel shiny_silver.012': 868}
+  ROOT_TOTAL_TRIS 1. mesh band parent_silver.001 = 1723951
+## ROOT 1. mesh band parent_gold.001 type=EMPTY loc=[0.0, -1.052, -23.065] rot=[1.396, -0.0, 0.0] scale=[1.0, 1.0, 1.0] parent=None
+  EMPTY 1. mesh band parent_gold.001 loc=[0.0, -1.052, -23.065] rot=[1.396, -0.0, 0.0]
+  MESH _group3group2__polySurface2460.012 verts=3510 faces=3432 quads=3432 ngons=0 eval_tris=6864 uv=['map1'] custom_normals=True mods=[] dims=[0.681, 0.12, 0.428] world_loc=[0.004, 0.386, -23.471] scale=[1.119, 1.0, 1.0] parent=1. mesh band parent_gold.001 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4k_gold.001': 3432}
+  MESH _group3group2_polySurface898.002 verts=384912 faces=389664 quads=370656 ngons=0 eval_tris=760320 uv=['map1'] custom_normals=True mods=[] dims=[0.658, 2.328, 1.161] world_loc=[0.0, -0.821, -24.295] scale=[1.119, 1.0, 1.0] parent=1. mesh band parent_gold.001 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_gold.006': 389664}
+  MESH _group3group2_polySurface901.002 verts=360 faces=358 quads=358 ngons=0 eval_tris=716 uv=['map1'] custom_normals=True mods=[] dims=[0.686, 0.095, 0.228] world_loc=[0.0, 0.287, -23.77] scale=[1.119, 1.0, 1.0] parent=1. mesh band parent_gold.001 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_gold.006': 358}
+  MESH _group3group2_polySurface902.012 verts=39560 faces=39488 quads=39488 ngons=0 eval_tris=78976 uv=['map1', 'text'] custom_normals=True mods=[] dims=[0.745, 0.351, 0.39] world_loc=[0.001, 0.046, -24.269] scale=[1.119, 1.0, 1.0] parent=1. mesh band parent_gold.001 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4k_gold_hartley_mesh.001': 39488}
+  MESH _pCylinder006.013 verts=386046 faces=390812 quads=371748 ngons=0 eval_tris=762560 uv=['map1'] custom_normals=True mods=[] dims=[0.658, 2.315, 1.142] world_loc=[0.0, -0.482, -22.377] scale=[1.119, 1.0, 1.0] parent=1. mesh band parent_gold.001 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_gold.006': 390812}
+  MESH _ZBrush_defualt_group003.012 verts=3 faces=1 quads=0 ngons=0 eval_tris=1 uv=[] custom_normals=True mods=[] dims=[0.016, 0.0, 0.019] world_loc=[0.252, -1.826, -22.822] scale=[1.119, 1.0, 1.0] parent=1. mesh band parent_gold.001 parent_type=OBJECT
+       slots_faces={'0:sfsfs.007': 1}
+  MESH Object008.012 verts=15330 faces=15328 quads=15328 ngons=0 eval_tris=30656 uv=['map1'] custom_normals=True mods=[] dims=[0.639, 0.055, 0.099] world_loc=[0.0, -2.016, -23.87] scale=[1.119, 1.0, 1.0] parent=1. mesh band parent_gold.001 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_gold.006': 15328}
+  MESH Object009.012 verts=6242 faces=6240 quads=6240 ngons=0 eval_tris=12480 uv=['map1'] custom_normals=True mods=[] dims=[0.037, 0.035, 0.034] world_loc=[-0.273, -2.027, -23.781] scale=[1.119, 1.0, 1.0] parent=1. mesh band parent_gold.001 parent_type=OBJECT
+       slots_faces={'0:metalstainlesssteel shiny_silver.009': 6240}
+  MESH polySurface007.012 verts=7117 faces=7059 quads=7059 ngons=0 eval_tris=14118 uv=['map1'] custom_normals=True mods=[] dims=[0.652, 0.1, 0.1] world_loc=[0.162, -1.822, -22.412] scale=[1.0, 1.0, 1.0] parent=1. mesh band parent_gold.001 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_gold.006': 6191, '1:metalstainlesssteel shiny_silver.012': 868}
+  MESH polySurface008.012 verts=21572 faces=21568 quads=21568 ngons=0 eval_tris=43136 uv=['map1'] custom_normals=True mods=[] dims=[0.639, 0.09, 0.147] world_loc=[0.079, -1.764, -22.396] scale=[1.119, 1.0, 1.0] parent=1. mesh band parent_gold.001 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_gold.006': 15328, '1:metalstainlesssteel shiny_silver.009': 6240}
+  MESH polySurface009.012 verts=7121 faces=7062 quads=7062 ngons=0 eval_tris=14124 uv=['map1'] custom_normals=True mods=[] dims=[0.652, 0.1, 0.1] world_loc=[-0.16, -2.068, -23.805] scale=[1.0, 1.0, 1.0] parent=1. mesh band parent_gold.001 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_gold.006': 6194, '1:metalstainlesssteel shiny_silver.012': 868}
+  ROOT_TOTAL_TRIS 1. mesh band parent_gold.001 = 1723951
+## ROOT 1. mesh band parent.rose gold.002 type=EMPTY loc=[0.0, -1.052, -23.065] rot=[1.396, -0.0, 0.0] scale=[1.0, 1.0, 1.0] parent=None
+  EMPTY 1. mesh band parent.rose gold.002 loc=[0.0, -1.052, -23.065] rot=[1.396, -0.0, 0.0]
+  MESH _group3group2__polySurface2460.003 verts=3510 faces=3432 quads=3432 ngons=0 eval_tris=6864 uv=['map1'] custom_normals=True mods=[] dims=[0.681, 0.12, 0.428] world_loc=[0.004, 0.386, -23.471] scale=[1.119, 1.0, 1.0] parent=1. mesh band parent.rose gold.002 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4k_rosegold.002': 3432}
+  MESH _group3group2_polySurface902.003 verts=39560 faces=39488 quads=39488 ngons=0 eval_tris=78976 uv=['map1', 'text'] custom_normals=True mods=[] dims=[0.745, 0.351, 0.39] world_loc=[0.001, 0.046, -24.269] scale=[1.119, 1.0, 1.0] parent=1. mesh band parent.rose gold.002 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4k_rosegold_hartley_mesh.002': 39488}
+  MESH _pCylinder006.003 verts=771318 faces=780834 quads=742762 ngons=0 eval_tris=1523596 uv=['map1'] custom_normals=True mods=[] dims=[0.686, 2.341, 2.608] world_loc=[0.0, -0.482, -22.377] scale=[1.119, 1.0, 1.0] parent=1. mesh band parent.rose gold.002 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_rosegold.002': 780834}
+  MESH _ZBrush_defualt_group003.003 verts=3 faces=1 quads=0 ngons=0 eval_tris=1 uv=[] custom_normals=True mods=[] dims=[0.016, 0.0, 0.019] world_loc=[0.252, -1.826, -22.822] scale=[1.119, 1.0, 1.0] parent=1. mesh band parent.rose gold.002 parent_type=OBJECT
+       slots_faces={'0:sfsfs.001': 1}
+  MESH Object008.003 verts=15330 faces=15328 quads=15328 ngons=0 eval_tris=30656 uv=['map1'] custom_normals=True mods=[] dims=[0.639, 0.055, 0.099] world_loc=[0.0, -2.016, -23.87] scale=[1.119, 1.0, 1.0] parent=1. mesh band parent.rose gold.002 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_rosegold.002': 15328}
+  MESH Object009.003 verts=6242 faces=6240 quads=6240 ngons=0 eval_tris=12480 uv=['map1'] custom_normals=True mods=[] dims=[0.037, 0.035, 0.034] world_loc=[-0.273, -2.027, -23.781] scale=[1.119, 1.0, 1.0] parent=1. mesh band parent.rose gold.002 parent_type=OBJECT
+       slots_faces={'0:metalstainlesssteel shiny_silver.007': 6240}
+  MESH polySurface007.003 verts=7117 faces=7059 quads=7059 ngons=0 eval_tris=14118 uv=['map1'] custom_normals=True mods=[] dims=[0.652, 0.1, 0.1] world_loc=[0.162, -1.822, -22.412] scale=[1.0, 1.0, 1.0] parent=1. mesh band parent.rose gold.002 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_rosegold.002': 6191, '1:metalstainlesssteel shiny_silver.012': 868}
+  MESH polySurface008.003 verts=21572 faces=21568 quads=21568 ngons=0 eval_tris=43136 uv=['map1'] custom_normals=True mods=[] dims=[0.639, 0.09, 0.147] world_loc=[0.079, -1.764, -22.396] scale=[1.119, 1.0, 1.0] parent=1. mesh band parent.rose gold.002 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_rosegold.002': 15328, '1:metalstainlesssteel shiny_silver.007': 6240}
+  MESH polySurface009.003 verts=7121 faces=7062 quads=7062 ngons=0 eval_tris=14124 uv=['map1'] custom_normals=True mods=[] dims=[0.652, 0.1, 0.1] world_loc=[-0.16, -2.068, -23.805] scale=[1.0, 1.0, 1.0] parent=1. mesh band parent.rose gold.002 parent_type=OBJECT
+       slots_faces={'0:MetalStainlessSteelBrushed002_4K_shiny_rosegold.002': 6194, '1:metalstainlesssteel shiny_silver.012': 868}
+  ROOT_TOTAL_TRIS 1. mesh band parent.rose gold.002 = 1723951
+## ROOT cam 10 parent type=EMPTY loc=[0.024, -2.26, 2.154] rot=[0.059, -0.0, 0.0] scale=[1.0, 1.0, 1.0] parent=None
+  EMPTY cam 10 parent loc=[0.024, -2.26, 2.154] rot=[0.059, -0.0, 0.0]
+  CAM cam 10 lens=65.5 clip=4.5,1000.0 world_loc=[0.008, -4.425, -3.385]
+  MESH Plane.001 verts=4 faces=1 quads=1 ngons=0 eval_tris=2 uv=['UVMap'] custom_normals=False mods=[] dims=[2.0, 2.0, 0.0] world_loc=[0.0, 0.0, 0.0] scale=[14.393, 14.393, 14.393] parent=cam 10 parent parent_type=OBJECT
+       slots_faces={'0:Material.006': 1}
+  LIGHT Point.001 loc=[-0.014, 32.844, 24.516] rot=[0.0, -0.0, 0.0]
+  ROOT_TOTAL_TRIS cam 10 parent = 2
+## ROOT Hiding Boxes type=MESH loc=[-0.351, -1.126, -24.874] rot=[0.0, 0.0, 0.0] scale=[5.463, 5.463, 5.463] parent=None
+  MESH Hiding Boxes verts=8 faces=6 quads=6 ngons=0 eval_tris=12 uv=['UVMap'] custom_normals=False mods=[] dims=[10.925, 10.925, 10.925] world_loc=[-0.351, -1.126, -24.874] scale=[5.463, 5.463, 5.463] parent=None parent_type=OBJECT
+       slots_faces={'0:Material.007': 6}
+  ROOT_TOTAL_TRIS Hiding Boxes = 12
+## DONE2
+Blender 4.2.9 LTS (hash a10f621e649a built 2025-04-15 01:58:48)
+Read blend: "/Users/faizan/Desktop/Projects/veloris/Heritage_Animation_export.blend"
+
+Blender quit

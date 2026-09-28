@@ -1,0 +1,777 @@
+{
+ "source": "/Users/faizan/Desktop/Projects/veloris/Heritage_Animation_export.blend",
+ "notes": [
+  "band: dropped _ZBrush_defualt_group003.013 (1-face stub, material sfsfs.008)",
+  "caseback: 12 side faces of the TEXT slot (a notch on the caseback wall) merged into Caseback_Ring",
+  "dial: dropped hidden underside part (252 faces at z=-0.0716, fully covered by the dial disc; it would overlap the planar bake)",
+  "relinked missing library group 'Poliigon_Adjustments.001' in 'ConcretePolished001_2K' to local 'Poliigon_Adjustments.001'",
+  "relinked missing library group 'Poliigon_Adjustments.001' in 'FabricLeatherHorsehide001_4K.003' to local 'Poliigon_Adjustments.001'",
+  "relinked missing library group 'Poliigon_Adjustments.001' in 'MetalStainlessSteelRadial002_2K' to local 'Poliigon_Adjustments.001'",
+  "hands exported at rotation 0 = 12 o'clock (the client pose was a fixed presentation time); the site drives hour/minute from the clock and the seconds pivot plays HeritageSeconds",
+  "bake Strap_Long_Leather: UV 'UVMap' overlaps (23.1% of texels) \u2014 baked anyway, check visually"
+ ],
+ "parts": {
+  "Hands_Post": {
+   "evidence": "slot 0 loose part at the dial centre, 65 faces, size [0.0141, 0.0141, 0.0355]"
+  },
+  "Case": {
+   "evidence": "largest loose part of slot 0 (case, lugs and bezel are one connected surface; not separable by slot)"
+  },
+  "Caseback": {
+   "evidence": "slot 1 main loose part: 780 faces, mean normal [-0.001, 0.001, -0.966] (faces \u2212Z, the rear), radius from the axis; solid steel with the radial texture and the engraved mask"
+  },
+  "Caseback_Ring": {
+   "evidence": "slot 2 loose part on the case axis (radius \u22480.42\u20130.43, below the caseback plane)"
+  },
+  "Crown_Tip": {
+   "evidence": "slot 2 loose part at x > 0.5 (crown side, +X)"
+  },
+  "Crown": {
+   "evidence": "slot 3 loose part at x > 0.5 with >200 faces (crown body)"
+  },
+  "Indices": {
+   "evidence": "12 remaining slot-3 loose parts around the dial (radius \u22480.43\u20130.60)"
+  },
+  "Dial": {
+   "evidence": "slot 4 loose part with the highest mean z (-0.0214), facing +Z, 127 faces"
+  },
+  "Crystal": {
+   "evidence": "both glass slots lie above the hands (front): IOR 1.008 = top and underside discs, IOR 1.1 = bevelled rim; the rear is the solid engraved caseback (slot 1)"
+  },
+  "Hour": {
+   "pivot": [
+    -0.0063,
+    0.0017,
+    -0.0105
+   ],
+   "authored_rotation_z_deg": 52.26,
+   "exported_rotation_z_deg": 0.0
+  },
+  "Minute": {
+   "pivot": [
+    -0.0063,
+    0.0017,
+    -0.0029
+   ],
+   "authored_rotation_z_deg": -66.1,
+   "exported_rotation_z_deg": 0.0
+  },
+  "SecondsPivot": {
+   "pivot": [
+    -0.0063,
+    0.0017,
+    0.0194
+   ],
+   "authored_rotation_z_deg_frame1": 83.1
+  },
+  "Second": {
+   "authored_local_rotation_z_deg": 157.16,
+   "exported_rotation_z_deg": 0.0
+  }
+ },
+ "materials": {
+  "Case_Polished": {
+   "base": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "metallic": 1.0,
+   "roughness": 0.05,
+   "glass": false,
+   "textures": {}
+  },
+  "Crown_Polished": {
+   "base": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "metallic": 1.0,
+   "roughness": 0.05,
+   "glass": false,
+   "textures": {}
+  },
+  "Indices": {
+   "base": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "metallic": 1.0,
+   "roughness": 0.05,
+   "glass": false,
+   "textures": {}
+  },
+  "Hands": {
+   "base": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "metallic": 1.0,
+   "roughness": 0.05,
+   "glass": false,
+   "textures": {}
+  },
+  "Rehaut_White": {
+   "base": [
+    0.806,
+    0.806,
+    0.806
+   ],
+   "metallic": 0.0,
+   "roughness": 0.136,
+   "glass": false,
+   "textures": {}
+  },
+  "Rehaut_Black": {
+   "base": [
+    0.002,
+    0.002,
+    0.002
+   ],
+   "metallic": 0.0,
+   "roughness": 0.136,
+   "glass": false,
+   "textures": {}
+  },
+  "Crystal": {
+   "base": [
+    1,
+    1,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.0,
+   "glass": true,
+   "textures": {}
+  },
+  "Crystal_Edge": {
+   "base": [
+    1,
+    1,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.2,
+   "glass": true,
+   "textures": {}
+  },
+  "Case_Brushed": {
+   "textures": {
+    "baseColor": "MetalStainlessSteelBrushed002_COL_2K_METALNESS",
+    "roughness": "MetalStainlessSteelBrushed002_ROUGHNESS_2K_METALNESS"
+   },
+   "uv_transform": [
+    0.5,
+    90
+   ],
+   "metallic": 1.0
+  },
+  "Dial_White": {
+   "textures": {
+    "baseColor": "Dial_color",
+    "roughness": "Dial_rough",
+    "metallic": "Dial_metal",
+    "normal": "Dial_normal"
+   },
+   "base": null,
+   "metallic": 1.0,
+   "roughness": null
+  },
+  "Dial_Black": {
+   "textures": {
+    "baseColor": "Dial_Black_color",
+    "roughness": "Dial_Black_rough",
+    "normal": "Dial_Black_normal"
+   },
+   "base": null,
+   "metallic": 0.0,
+   "roughness": null
+  },
+  "Caseback": {
+   "textures": {
+    "baseColor": "Caseback_color",
+    "roughness": "Caseback_rough",
+    "normal": "Caseback_normal"
+   },
+   "base": null,
+   "metallic": 1.0,
+   "roughness": null,
+   "note": "metallic 1.0 constant: both client branches are metals (radial steel 1.0 / engraved text 0.359); the text reads through baked colour + roughness"
+  },
+  "Bracelet_Keeper": {
+   "base": [
+    0.8,
+    0.8,
+    0.8
+   ],
+   "metallic": 1.0,
+   "roughness": 0.2,
+   "glass": false,
+   "textures": {}
+  },
+  "Leather_Strap_Short": {
+   "textures": {
+    "roughness": "Strap_Short_Leather_rough",
+    "normal": "Strap_Short_Leather_normal"
+   },
+   "base": [
+    0.01,
+    0.01,
+    0.01
+   ],
+   "metallic": 0.0,
+   "roughness": 0.677
+  },
+  "Leather_Lining_Strap_Short": {
+   "textures": {
+    "baseColor": "Strap_Short_Leather_Lining_color",
+    "normal": "Strap_Short_Leather_Lining_normal"
+   },
+   "base": null,
+   "metallic": 0.0,
+   "roughness": 0.677
+  },
+  "Leather_Stitch": {
+   "base": [
+    0.007,
+    0.005,
+    0.003
+   ],
+   "metallic": 0.0,
+   "roughness": 0.6,
+   "glass": false,
+   "textures": {}
+  },
+  "Leather_Lining_Strap_Long": {
+   "textures": {
+    "baseColor": "Strap_Long_Leather_Lining_color",
+    "normal": "Strap_Long_Leather_Lining_normal"
+   },
+   "base": null,
+   "metallic": 0.0,
+   "roughness": 0.677
+  },
+  "Leather_Strap_Long": {
+   "textures": {
+    "roughness": "Strap_Long_Leather_rough",
+    "normal": "Strap_Long_Leather_normal"
+   },
+   "base": [
+    0.01,
+    0.01,
+    0.01
+   ],
+   "metallic": 0.0,
+   "roughness": 0.677
+  },
+  "Bracelet_Buckle": {
+   "textures": {
+    "roughness": "Buckle_rough",
+    "normal": "Buckle_normal"
+   },
+   "base": [
+    0.668,
+    0.668,
+    0.668
+   ],
+   "metallic": 1.0,
+   "roughness": null
+  },
+  "Bracelet_Brushed": {
+   "textures": {
+    "baseColor": "MetalStainlessSteelBrushed002_COL_2K_METALNESS",
+    "roughness": "MetalStainlessSteelBrushed002_ROUGHNESS_2K_METALNESS"
+   },
+   "uv_transform": [
+    0.5,
+    90
+   ],
+   "metallic": 1.0
+  },
+  "Bracelet_Clasp": {
+   "textures": {
+    "baseColor": "Mesh_Clasp_Plate_color",
+    "roughness": "Mesh_Clasp_Plate_rough",
+    "normal": "Mesh_Clasp_Plate_normal"
+   },
+   "base": null,
+   "metallic": 1.0,
+   "roughness": null
+  },
+  "Bracelet_Polished": {
+   "base": [
+    0.9,
+    0.9,
+    0.9
+   ],
+   "metallic": 1.0,
+   "roughness": 0.05,
+   "glass": false,
+   "textures": {}
+  }
+ },
+ "bakes": {
+  "Dial": {
+   "uv": "web",
+   "size": 2048,
+   "overlap": 0.0,
+   "source": "x WatchFace_white base and black",
+   "channels": [
+    "color",
+    "rough",
+    "metal",
+    "normal"
+   ]
+  },
+  "Dial_Black": {
+   "uv": "web",
+   "size": 2048,
+   "overlap": 0.0,
+   "source": "x WatchFace_black and white",
+   "channels": [
+    "color",
+    "rough",
+    "normal"
+   ]
+  },
+  "Caseback": {
+   "uv": "web",
+   "size": 1024,
+   "overlap": 0.0,
+   "source": "x MetalStainlessSteelRadial002_2K_TEXT",
+   "channels": [
+    "color",
+    "rough",
+    "normal"
+   ]
+  },
+  "Strap_Short_Leather": {
+   "uv": "UVMap",
+   "size": 2048,
+   "overlap": 0.0,
+   "source": "Leather_texture_black.002",
+   "channels": [
+    "rough",
+    "normal"
+   ]
+  },
+  "Strap_Short_Leather_Lining": {
+   "uv": "web",
+   "size": 512,
+   "overlap": 0.0001,
+   "source": "felt_basic straps.003",
+   "channels": [
+    "color",
+    "normal"
+   ]
+  },
+  "Strap_Long_Leather_Lining": {
+   "uv": "web",
+   "size": 512,
+   "overlap": 0.0,
+   "source": "felt_basic straps.003",
+   "channels": [
+    "color",
+    "normal"
+   ]
+  },
+  "Strap_Long_Leather": {
+   "uv": "UVMap",
+   "size": 2048,
+   "overlap": 0.2311,
+   "source": "Leather_texture_black.002",
+   "channels": [
+    "rough",
+    "normal"
+   ]
+  },
+  "Buckle": {
+   "uv": "web",
+   "size": 1024,
+   "overlap": 0.0,
+   "source": "silver metal with hartley.005",
+   "channels": [
+    "rough",
+    "normal"
+   ]
+  },
+  "Mesh_Clasp_Plate": {
+   "uv": "map1",
+   "size": 1024,
+   "overlap": 0.0008,
+   "source": "MetalStainlessSteelBrushed002_4k_silver_hartley_mesh.002",
+   "channels": [
+    "color",
+    "rough",
+    "normal"
+   ]
+  }
+ },
+ "animations": {
+  "HeritageSeconds": {
+   "node": "SecondsPivot",
+   "frames": [
+    1,
+    1801
+   ],
+   "seconds": 60.0,
+   "rotation": "0 \u2192 \u2212360\u00b0 about the dial normal (glTF local +Z of SecondsPivot; clockwise seen from the front), LINEAR",
+   "source": "1. second hand parent.001Action (frames 1\u20131801, LINEAR, \u22126.2832 rad)"
+  }
+ },
+ "straps": {
+  "band_root_at_stage_frame": [
+   0.0047,
+   -1.0517,
+   2.3045
+  ],
+  "leather_modifiers": {
+   "leather strap.059": {
+    "tris_before": 2612,
+    "tris_after": 17792
+   },
+   "leather strap.060": {
+    "tris_before": 8768,
+    "tris_after": 53144
+   },
+   "metal lock.030": {
+    "tris_before": 17696,
+    "tris_after": 17696
+   }
+  },
+  "band_decimation": {
+   "_group3group2__polySurface2460.013": {
+    "tris_before": 6864,
+    "ratio": null,
+    "tris_after": 6864
+   },
+   "_group3group2_polySurface902.013": {
+    "tris_before": 78976,
+    "ratio": 0.35,
+    "tris_after": 27641
+   },
+   "_pCylinder006.014": {
+    "tris_before": 1523596,
+    "ratio": 0.09845129548778023,
+    "tris_after": 150000
+   },
+   "Object008.013": {
+    "tris_before": 30656,
+    "ratio": 0.35,
+    "tris_after": 10728
+   },
+   "Object009.013": {
+    "tris_before": 12480,
+    "ratio": null,
+    "tris_after": 12480
+   },
+   "polySurface007.013": {
+    "tris_before": 14118,
+    "ratio": null,
+    "tris_after": 14118
+   },
+   "polySurface008.013": {
+    "tris_before": 43136,
+    "ratio": 0.35,
+    "tris_after": 15096
+   },
+   "polySurface009.013": {
+    "tris_before": 14124,
+    "ratio": null,
+    "tris_after": 14124
+   }
+  },
+  "leather_parts": {
+   "Strap_Short": {
+    "centre_head_frame": [
+     -0.0025,
+     -0.0447,
+     -0.9865
+    ],
+    "tris": 17792
+   },
+   "Strap_Long": {
+    "centre_head_frame": [
+     0.0125,
+     -0.5876,
+     -0.9838
+    ],
+    "tris": 53144
+   },
+   "Buckle": {
+    "centre_head_frame": [
+     -0.0013,
+     -0.0046,
+     -1.8957
+    ],
+    "tris": 17696
+   }
+  },
+  "leather_note": "Bevel + Subdivision (level 1) + Curve modifiers applied at the frame-1 pose; buckle keepers use a constant polished material (the client's engraved detail is sub-pixel at web size)",
+  "band_parts": {
+   "Mesh_Clasp_Insert": {
+    "source": "x MetalStainlessSteelBrushed002_2K.002",
+    "tris": 6864,
+    "size": [
+     0.6089,
+     0.1201,
+     0.4284
+    ],
+    "centre_head_frame": [
+     0.0023,
+     -0.0357,
+     -2.5251
+    ]
+   },
+   "Mesh_Clasp_Plate": {
+    "source": "MetalStainlessSteelBrushed002_4k_silver_hartley_mesh.002",
+    "tris": 27641,
+    "size": [
+     0.6656,
+     0.3513,
+     0.3899
+    ],
+    "centre_head_frame": [
+     -0.0012,
+     -0.793,
+     -2.3181
+    ]
+   },
+   "Mesh_Links": {
+    "source": "metalstainlesssteel shiny_silver.010",
+    "tris": 150000,
+    "size": [
+     0.6114,
+     2.3394,
+     2.6073
+    ],
+    "centre_head_frame": [
+     -0.0015,
+     -0.0114,
+     -1.3495
+    ]
+   },
+   "Mesh_EndLink_6": {
+    "source": "metalstainlesssteel shiny_silver.010",
+    "tris": 10728,
+    "size": [
+     0.5714,
+     0.0552,
+     0.0993
+    ],
+    "centre_head_frame": [
+     -0.0015,
+     -0.7724,
+     -0.2153
+    ]
+   },
+   "Mesh_Pin_6": {
+    "source": "metalstainlesssteel shiny_silver.010",
+    "tris": 12480,
+    "size": [
+     0.0332,
+     0.0349,
+     0.0343
+    ],
+    "centre_head_frame": [
+     -0.2455,
+     -0.6816,
+     -0.1947
+    ]
+   },
+   "Mesh_Bar_12": {
+    "source": "metalstainlesssteel shiny_silver.010",
+    "tris": 14118,
+    "size": [
+     0.6516,
+     0.1001,
+     0.1001
+    ],
+    "centre_head_frame": [
+     -0.0007,
+     0.7049,
+     -0.1546
+    ]
+   },
+   "Mesh_EndLink_12": {
+    "source": "metalstainlesssteel shiny_silver.010",
+    "tris": 15096,
+    "size": [
+     0.5714,
+     0.0904,
+     0.1473
+    ],
+    "centre_head_frame": [
+     -0.0015,
+     0.7318,
+     -0.2113
+    ]
+   },
+   "Mesh_Bar_6": {
+    "source": "metalstainlesssteel shiny_silver.010",
+    "tris": 14124,
+    "size": [
+     0.6516,
+     0.1001,
+     0.1001
+    ],
+    "centre_head_frame": [
+     -0.0007,
+     -0.7105,
+     -0.1546
+    ]
+   }
+  }
+ },
+ "needsClientConfirmation": [],
+ "base_slots": {
+  "x Glass: Clear IOR1.1": {
+   "faces": 126
+  },
+  "x metal shiny silver_0.005 bevel": {
+   "faces": 3674
+  },
+  "x white mild reflective.001": {
+   "faces": 252
+  },
+  "x metal shiny silver_0.003 bevel": {
+   "faces": 1327
+  },
+  "x WatchFace_white base and black": {
+   "faces": 379
+  },
+  "x MetalStainlessSteelBrushed002_2K": {
+   "faces": 1286
+  },
+  "x MetalStainlessSteelRadial002_2K_TEXT": {
+   "faces": 792
+  },
+  "x Glass: Clear IOR1.008": {
+   "faces": 128
+  }
+ },
+ "glass_classification": {
+  "hands_top_z": 0.0145,
+  "dial_z": -0.0214,
+  "base_z_range": [
+   -0.2151,
+   0.0416
+  ],
+  "slots": {
+   "x Glass: Clear IOR1.008": {
+    "faces": 128,
+    "area": 2.3283,
+    "mean_normal": [
+     -0.0,
+     -0.0,
+     -0.025
+    ],
+    "mean_z": 0.0344,
+    "bbox_min": [
+     -0.6163,
+     -0.6161,
+     0.0275
+    ],
+    "bbox_max": [
+     0.6163,
+     0.6161,
+     0.0416
+    ],
+    "material": "x Glass: Clear IOR1.008",
+    "above_hands": true,
+    "below_dial": false
+   },
+   "x Glass: Clear IOR1.1": {
+    "faces": 126,
+    "area": 0.0785,
+    "mean_normal": [
+     -0.0,
+     0.0,
+     0.728
+    ],
+    "mean_z": 0.0345,
+    "bbox_min": [
+     -0.6163,
+     -0.6161,
+     0.0275
+    ],
+    "bbox_max": [
+     0.6163,
+     0.6161,
+     0.0416
+    ],
+    "material": "x Glass: Clear IOR1.1",
+    "above_hands": true,
+    "below_dial": false
+   }
+  }
+ },
+ "scale": {
+  "source_case_body_diameter": 1.3048,
+  "source_lug_to_lug": 1.5266,
+  "source_thickness": 0.2566,
+  "source_crystal_diameter": 1.2326,
+  "scale": 1.4954,
+  "site_mm_per_unit": 20.5,
+  "case_mm": 40.0,
+  "legacy_scale_for_reference": 1.3442,
+  "final_units": {
+   "case_body_diameter": 1.9512,
+   "lug_to_lug": 2.2829,
+   "thickness": 0.3838
+  },
+  "final_mm_at_site_scale": {
+   "case_body_diameter": 40.0,
+   "lug_to_lug": 46.8,
+   "thickness": 7.87
+  },
+  "node_convention": "roots: scale + centring only (rotation identity); every node's local frame has the dial normal on +Z, crown +X, 12 o'clock +Y (same convention as the Legacy asset)"
+ },
+ "hierarchy": {
+  "head": [
+   "HeritageWatch",
+   "  Case  [web_Case_Polished] 6628 tris",
+   "  Caseback  [web_Caseback] 1430 tris",
+   "  Caseback_Ring  [web_Case_Brushed] 282 tris",
+   "  Crown  [web_Crown_Polished] 1682 tris",
+   "  Crown_Tip  [web_Case_Brushed] 1156 tris",
+   "  Crystal  [web_Crystal, web_Crystal_Edge] 752 tris",
+   "  Dial  [web_Dial_White] 376 tris",
+   "  Dial_Black  [web_Dial_Black] 376 tris",
+   "  Hands",
+   "    Hands_Post  [web_Indices] 142 tris",
+   "    Hour  [web_Hands] 54 tris",
+   "    Minute  [web_Hands] 54 tris",
+   "    SecondsPivot",
+   "      Second  [web_Hands] 276 tris",
+   "  Indices  [web_Indices] 624 tris",
+   "  Rehaut  [web_Rehaut_White] 504 tris",
+   "  Rehaut_Black  [web_Rehaut_Black] 504 tris"
+  ],
+  "leather": [
+   "HeritageStrap_LeatherBlack",
+   "  Buckle  [web_Bracelet_Buckle] 17696 tris",
+   "  Strap_Long  [web_Leather_Stitch, web_Leather_Lining_Strap_Long, web_Leather_Strap_Long, web_Bracelet_Keeper] 53144 tris",
+   "  Strap_Short  [web_Bracelet_Keeper, web_Leather_Strap_Short, web_Leather_Lining_Strap_Short] 17792 tris"
+  ],
+  "band": [
+   "HeritageStrap_MeshSilver",
+   "  Mesh_Bar_12  [web_Bracelet_Polished] 14118 tris",
+   "  Mesh_Bar_6  [web_Bracelet_Polished] 14124 tris",
+   "  Mesh_Clasp_Insert  [web_Bracelet_Brushed] 6864 tris",
+   "  Mesh_Clasp_Plate  [web_Bracelet_Clasp] 27641 tris",
+   "  Mesh_EndLink_12  [web_Bracelet_Polished] 15096 tris",
+   "  Mesh_EndLink_6  [web_Bracelet_Polished] 10728 tris",
+   "  Mesh_Links  [web_Bracelet_Polished] 150000 tris",
+   "  Mesh_Pin_6  [web_Bracelet_Polished] 12480 tris"
+  ]
+ },
+ "totals": {
+  "head_tris": 14840,
+  "leather_tris": 88632,
+  "band_tris": 251051
+ }
+}

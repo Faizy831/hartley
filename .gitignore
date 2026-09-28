@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# cached Hartley product photography sources (scripts/fetch-product-photos.mjs)
+/scripts/.cache
+
+# client Blender sources (multi-GB, read-only references; the web assets are built from them into public/models)
+*.blend
+*.blend1

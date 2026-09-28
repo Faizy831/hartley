@@ -1,0 +1,76 @@
+<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#11100e}canvas{display:block}</style>
+<script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js","three/addons/":"/node_modules/three/examples/jsm/"}}</script></head>
+<body><script type="module">
+import * as THREE from "three";
+import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+import { DRACOLoader } from "three/addons/loaders/DRACOLoader.js";
+import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
+const q = new URLSearchParams(location.search); const W = 1200, H = 900;
+const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true }); renderer.setSize(W, H); renderer.setPixelRatio(1);
+renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.1; document.body.appendChild(renderer.domElement);
+const scene = new THREE.Scene(); scene.background = new THREE.Color("#11100e");
+scene.environment = new THREE.PMREMGenerator(renderer).fromScene(new RoomEnvironment(), 0.04).texture; scene.environmentIntensity = +(q.get("env") || 0.45); renderer.toneMappingExposure = +(q.get("exp") || 1.0);
+const key = new THREE.DirectionalLight("#fff4e0", 2.2); key.position.set(3, 5, 4); scene.add(key);
+scene.add(new THREE.DirectionalLight("#cfd8ff", 0.8).translateX(-4).translateY(2).translateZ(-3));
+const camera = new THREE.PerspectiveCamera(30, W / H, 0.01, 100);
+const draco = new DRACOLoader().setDecoderPath("/node_modules/three/examples/jsm/libs/draco/gltf/");
+const loader = new GLTFLoader().setDRACOLoader(draco);
+const load = (u) => new Promise((res, rej) => loader.load(u, res, undefined, rej));
+const report = { errors: [], files: {} }; window.__report = report;
+const tree = (o, d, out, max) => { if (d > max) return; out.push("  ".repeat(d) + o.name + (o.isMesh ? " *" : "") + (o.children.length && d === max ? ` (+${o.children.length})` : "")); for (const c of o.children) tree(c, d + 1, out, max); };
+try {
+  const t0 = performance.now(); const head = await load("/public/models/legacy/legacy-head.glb"); const tHead = performance.now() - t0;
+  const t1 = performance.now(); const strap = await load("/public/models/legacy/straps/steel-bracelet.glb"); const tStrap = performance.now() - t1;
+  for (const [name, g, ms] of [["legacy-head.glb", head, tHead], ["steel-bracelet.glb", strap, tStrap]]) {
+    const info = { loadMs: Math.round(ms), meshes: 0, triangles: 0, materials: new Set(), textures: new Set(), morph: [], nodes: 0, hierarchy: [], cameras: g.cameras.length, animations: [], bbox: null, unnamed: 0, groups: {} };
+    g.scene.traverse((o) => { info.nodes++; if (!o.name) info.unnamed++; if (o.isMesh) { info.meshes++; const idx = o.geometry.index; info.triangles += (idx ? idx.count : o.geometry.attributes.position.count) / 3; info.materials.add(o.material.name);
+      for (const k of ["map", "normalMap", "roughnessMap", "metalnessMap"]) if (o.material[k]) info.textures.add(`${o.material[k].name || o.material[k].source?.data?.src || k}:${o.material[k].image?.width}x${o.material[k].image?.height}`);
+      if (o.morphTargetInfluences) info.morph.push(o.name + " targets=" + o.morphTargetInfluences.length); } });
+    const b = new THREE.Box3().setFromObject(g.scene); info.bbox = { min: b.min.toArray().map((v) => +v.toFixed(3)), max: b.max.toArray().map((v) => +v.toFixed(3)), size: b.getSize(new THREE.Vector3()).toArray().map((v) => +v.toFixed(3)) };
+    tree(g.scene.children[0], 0, info.hierarchy, 2);
+    for (const grp of g.scene.children[0].children) { let n = 0; grp.traverse((o) => { if (o.isMesh) n++; }); info.groups[grp.name] = n; }
+    info.materials = [...info.materials]; info.textures = [...info.textures];
+    const sizes = []; g.scene.updateMatrixWorld(true); g.scene.traverse((o) => { if (o.isMesh) { const bb = new THREE.Box3().setFromObject(o); const s = bb.getSize(new THREE.Vector3()); const c = bb.getCenter(new THREE.Vector3()); sizes.push({ name: o.parent.name + "/" + o.name, size: s.toArray().map((v) => +v.toFixed(2)), centre: c.toArray().map((v) => +v.toFixed(2)), tris: (o.geometry.index ? o.geometry.index.count : o.geometry.attributes.position.count) / 3 }); } });
+    sizes.sort((a, b) => Math.max(...b.size) - Math.max(...a.size)); info.largest = sizes.slice(0, 12);
+    info.outliers = sizes.filter((m) => Math.hypot(...m.centre) > 1.1 || Math.max(...m.size) > 2.2);
+    const hands = g.scene.getObjectByName("Hands"); info.hands = []; if (hands) hands.traverse((o) => { if (o.isMesh) { const bb = new THREE.Box3().setFromObject(o); const s = bb.getSize(new THREE.Vector3()); const c = bb.getCenter(new THREE.Vector3()); info.hands.push({ name: o.parent.name + "/" + o.name, size: s.toArray().map((v) => +v.toFixed(3)), centre: c.toArray().map((v) => +v.toFixed(3)), tris: (o.geometry.index ? o.geometry.index.count : o.geometry.attributes.position.count) / 3, pivot: o.getWorldPosition(new THREE.Vector3()).toArray().map((v) => +v.toFixed(3)) }); } });
+    // animation validation
+    const mixer = new THREE.AnimationMixer(g.scene); const probes = {};
+    for (const clip of g.animations) { const a = mixer.clipAction(clip); a.play(); const tracks = clip.tracks.map((t) => t.name); const target = tracks[0].split(".")[0]; const node = g.scene.getObjectByName(target);
+      probes[clip.name] = { node, before: node ? (node.morphTargetInfluences ? [...node.morphTargetInfluences] : node.quaternion.toArray()) : null };
+      info.animations.push({ name: clip.name, duration: +clip.duration.toFixed(3), tracks, targetFound: !!node, t0: +clip.tracks[0].times[0].toFixed(3), keys: clip.tracks[0].times.length, pos0: node ? node.position.toArray().map((v) => +v.toFixed(3)) : null }); }
+    mixer.update(0); mixer.update(0.37);
+    for (const [name, p] of Object.entries(probes)) { const rec = info.animations.find((a) => a.name === name); if (p.node && !p.node.morphTargetInfluences) rec.posDrift = +p.node.position.distanceTo(new THREE.Vector3(...rec.pos0)).toFixed(4); const after = p.node ? (p.node.morphTargetInfluences ? [...p.node.morphTargetInfluences] : p.node.quaternion.toArray()) : null; const changed = after && p.before && after.some((v, i) => Math.abs(v - p.before[i]) > 1e-4); info.animations.find((a) => a.name === name).movesAt0_37s = !!changed; }
+    mixer.stopAllAction(); g.scene.traverse((o)=>{ if (o.morphTargetInfluences) o.morphTargetInfluences.fill(0); });
+    info.bannedAnimationNames = g.animations.map((a) => a.name).filter((n) => /cam|park|turn|stage|light/i.test(n));
+    // linearity of the long clips: angle about the node's rotation axis at 0 / 15 / 30 / 45 s should step evenly
+    info.linearity = {};
+    for (const clip of g.animations) {
+      if (clip.duration < 50) continue;
+      const node = g.scene.getObjectByName(clip.tracks[0].name.split(".")[0]); if (!node) continue;
+      const m2 = new THREE.AnimationMixer(g.scene); const act = m2.clipAction(clip); act.play(); act.timeScale = 0;
+      const q0 = new THREE.Quaternion(); act.time = 0; m2.update(0); q0.copy(node.quaternion);
+      const angles = [0, 15, 30, 45].map((t) => { act.time = t; m2.update(0); const q = node.quaternion.clone().premultiply(q0.clone().invert()); return +(2 * Math.acos(Math.min(1, Math.abs(q.w))) * 180 / Math.PI).toFixed(1); });
+      act.stop(); m2.uncacheRoot(g.scene);
+      info.linearity[clip.name] = { anglesFromStart: angles, keys: clip.tracks.map((t) => t.times.length) };
+    }
+    // tangents on anisotropic materials
+    info.tangents = { anisoWith: 0, anisoWithout: 0, othersWith: 0 };
+    g.scene.traverse((o) => { if (!o.isMesh) return; const has = !!o.geometry.attributes.tangent; const an = o.material.anisotropy > 0; if (an) info.tangents[has ? "anisoWith" : "anisoWithout"]++; else if (has) info.tangents.othersWith++; });
+    report.files[name] = info;
+  }
+  // stage
+  const root = new THREE.Group(); root.add(head.scene); root.add(strap.scene); scene.add(root);
+  const view = q.get("view") || "front"; const explode = +(q.get("explode") || 0);
+  if (explode) { const order = ["Crystal", "Bezel", "Hands", "Dial", "Case", "Crown", "Movement", "Caseback"]; head.scene.getObjectByName("LegacyWatch").children.forEach((g) => { const i = order.indexOf(g.name); g.position.z += (i < 0 ? 0 : (3.5 - i)) * 0.45 * explode; }); strap.scene.visible = false; }
+  if (q.get("hide")) for (const n of q.get("hide").split(",")) { const o = head.scene.getObjectByName(n); if (o) o.visible = false; }
+  const dist = explode ? 12 : 7;
+  const views = { front: [0, 0, dist], back: [0, 0, -dist], three: [dist * 0.6, dist * 0.35, dist * 0.7], side: [dist, 0, 0], movement: [-dist * 0.3, -dist * 0.25, -dist * 0.9] };
+  camera.position.set(...views[view]); camera.lookAt(0, 0, 0);
+  if (q.get("zoom")) camera.fov = 30 / +q.get("zoom"), camera.updateProjectionMatrix();
+  // run the mixer for the frame
+  const mixer = new THREE.AnimationMixer(head.scene); head.animations.forEach((c) => mixer.clipAction(c).play()); mixer.update(+(q.get("t") || 0));
+  renderer.render(scene, camera); report.rendered = true; report.drawCalls = renderer.info.render.calls; report.renderTriangles = renderer.info.render.triangles; report.programs = renderer.info.programs.length;
+} catch (e) { report.errors.push(String(e && e.stack || e)); }
+report.done = true;
+</script></body></html>
