@@ -15,7 +15,6 @@ export function detectQuality(): Quality {
   const isTouch = window.matchMedia("(pointer: coarse)").matches;
   const memory = nav.deviceMemory ?? 8;
   const cores = navigator.hardwareConcurrency ?? 8;
-  const width = window.innerWidth;
 
   let renderer = "";
   try {
@@ -33,10 +32,15 @@ export function detectQuality(): Quality {
   }
   const r = renderer.toLowerCase();
   const weakGPU = /swiftshader|llvmpipe|mali-4|mali-t|adreno 3|adreno 4|intel\(r\) hd graphics [3-5]|intel\(r\) hd graphics 6\d{2}\b/.test(r);
+  // iOS never exposes deviceMemory and under-reports hardwareConcurrency, and no WebGL2-capable Apple GPU
+  // needs the low tier; a phone's CSS width says nothing about its GPU either. Without this, a real iPhone
+  // fell to "low" and showed the procedural fallback while desktop emulation (Mac cores/memory) showed the GLB.
+  const apple = /apple/.test(r) || /\b(iPhone|iPad|iPod)\b/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
 
   if (weakGPU) return "low";
   if (isTouch) {
-    if (memory <= 3 || cores <= 4 || width < 400) return "low";
+    if (apple) return "medium";
+    if (memory <= 3 || cores <= 4) return "low";
     return "medium";
   }
   if (memory <= 4 || cores <= 4) return "medium";
