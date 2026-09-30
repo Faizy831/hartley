@@ -4,6 +4,16 @@ import { useProgress } from "@react-three/drei";
 import { gsap } from "@/lib/gsap";
 import { useStore } from "@/lib/store";
 import { useFontsReady } from "@/hooks/useFontsReady";
+import { stageAssetPending } from "@/lib/stageAsset";
+
+/**
+ * Safety exit: the loader leaves on its own after this long, unless the object on stage's real asset is still
+ * arriving, in which case it holds on until the asset is in (a cold start spends its time on the 10 MB download,
+ * the Draco decode and the first compile; leaving mid-way opened the story on the procedural stand-in and swapped
+ * the real watch in later, which read as "a different watch") — but never longer than the hard limit.
+ */
+const SAFETY_MS = 9000;
+const SAFETY_MAX_MS = 30000;
 
 /** power2.inOut, as the fade was tuned. */
 const FADE_EASE = "cubic-bezier(0.45, 0, 0.55, 1)";
@@ -59,10 +69,16 @@ export function Preloader() {
 
   // Safety: never trap the user behind a loader
   useEffect(() => {
-    const t = setTimeout(() => {
-      if (!useStore.getState().loaded) leave(800);
-    }, 9000);
-    return () => clearTimeout(t);
+    const t0 = performance.now();
+    const check = () => {
+      if (useStore.getState().loaded) return;
+      const waited = performance.now() - t0;
+      if (waited < SAFETY_MS) return;
+      if (waited < SAFETY_MAX_MS && stageAssetPending()) return;
+      leave(800);
+    };
+    const id = setInterval(check, 500);
+    return () => clearInterval(id);
   }, [leave]);
 
   if (gone) return null;

@@ -154,15 +154,37 @@ export function WatchRig() {
   });
   // The transition owns its own lifetime: it is only ever killed by a newer
   // transition or by unmount — never by the state change it causes itself.
+  // `target` is always the latest product asked for, so a dip that is
+  // already on its way swaps to wherever the request ended up, and a request
+  // that returns to the object already on stage abandons the dip instead of
+  // letting it land on a product nobody asked for any more (the hero label
+  // said Legacy while Heritage sat on stage).
   const shownRef = useRef<ResolvedWatch>(resolved);
-  const pending = useRef<gsap.core.Timeline | null>(null);
+  const target = useRef<ResolvedWatch>(resolved);
+  const pending = useRef<gsap.core.Animation | null>(null);
   useEffect(() => {
+    target.current = resolved;
     const current = shownRef.current;
     if (resolved === current) return;
     if (resolved.geometryKey === current.geometryKey) {
-      // same geometry: swap next frame, the materials tween inside the mounted model
+      // same geometry as the object on stage: swap next frame, the materials tween inside the mounted model
       shownRef.current = resolved;
-      gsap.delayedCall(0, () => setShown(resolved));
+      gsap.delayedCall(0, () => {
+        if (shownRef.current === resolved) setShown(resolved);
+      });
+      if (pending.current) {
+        // a dip towards a different object is no longer wanted: bring the light back where it is
+        pending.current.kill();
+        pending.current = gsap.to(rigState, {
+          dim: 1,
+          spin: 0,
+          duration: reduced || thumbMode ? 0.01 : 0.5,
+          ease: "power3.out",
+          onComplete: () => {
+            pending.current = null;
+          },
+        });
+      }
       return;
     }
     pending.current?.kill();
@@ -174,8 +196,9 @@ export function WatchRig() {
     });
     tl.to(rigState, { dim: 0.06, spin: 0.5 * dur, duration: 0.35 * dur, ease: "power2.in" })
       .add(() => {
-        shownRef.current = resolved;
-        setShown(resolved);
+        const next = target.current;
+        shownRef.current = next;
+        setShown(next);
         rigState.spin = -0.5 * dur;
       })
       .to(rigState, { dim: 1, spin: 0, duration: 0.85 * dur, ease: "power3.out" });

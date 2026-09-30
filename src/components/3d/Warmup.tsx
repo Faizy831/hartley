@@ -2,9 +2,7 @@
 import { useRef } from "react";
 import { useFrame, useThree } from "@react-three/fiber";
 import { useStore } from "@/lib/store";
-import { getWatch } from "@/data/watches";
-import { STRAPS } from "@/data/finishes";
-import { MODELS, decideModelType } from "@/data/watches/models";
+import { stageAssetUrls } from "@/lib/stageAsset";
 import { glbStatus, glbOnStage } from "./glb/loader";
 import { compileSteps, advance } from "@/lib/warm";
 
@@ -27,12 +25,9 @@ export function Warmup() {
     const st = useStore.getState();
     if (st.sceneWarm || phase.current === "done") return;
     if (phase.current === "wait") {
-      const def = getWatch(st.activeWatchId);
-      const model = MODELS[def.family];
-      const wantGlb = !!model && decideModelType(def.family, { quality: st.quality, glbDegraded: st.glbDegraded, thumbMode: st.thumbMode }) === "glb";
-      if (wantGlb && model) {
-        const strapUrl = model.straps[STRAPS[def.strap]?.kind];
-        const statuses = [model.head, ...(strapUrl ? [strapUrl] : [])].map(glbStatus);
+      const urls = stageAssetUrls();
+      if (urls.length) {
+        const statuses = urls.map(glbStatus);
         if (statuses.some((s) => s === "loading" || s === "idle")) return; // still downloading / parsing
         if (statuses.every((s) => s === "ready") && glbOnStage.count === 0) return; // rig not mounted yet
       }

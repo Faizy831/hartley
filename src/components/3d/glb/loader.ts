@@ -130,6 +130,15 @@ export function useGLBFailed(urls: string[]): boolean {
   );
 }
 
+/** Reactive: true once every one of the URLs has loaded and parsed. */
+export function useGLBReady(urls: string[]): boolean {
+  return useSyncExternalStore(
+    subscribe,
+    () => urls.every((u) => cache.get(u)?.status === "ready"),
+    () => false,
+  );
+}
+
 /** How many GLB rigs are currently mounted and active (the perf probe only judges frames with a real asset on stage). */
 export const glbOnStage = { count: 0 };
 
